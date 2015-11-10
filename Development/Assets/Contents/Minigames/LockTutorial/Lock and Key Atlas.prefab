@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Lock and Key Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: a9e8931028266784cbd5bff8601061a4, type: 2}
+  sprites:
+  - name: TriKey
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 1199
+      width: 288
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 1199
+      width: 288
+      height: 240
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Key
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 195
+      width: 155
+      height: 315
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 195
+      width: 155
+      height: 315
+    rotated: 0
+    paddingLeft: .0580645166
+    paddingRight: 0
+    paddingTop: .0857142881
+    paddingBottom: .0285714287
+  - name: SquareKey
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 731
+      width: 244
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 731
+      width: 244
+      height: 229
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CircleKey
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 961
+      width: 246
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 961
+      width: 246
+      height: 237
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DiamondKey
+    outer:
+      serializedVersion: 2
+      x: 1732
+      y: 1727
+      width: 229
+      height: 321
+    inner:
+      serializedVersion: 2
+      x: 1732
+      y: 1727
+      width: 229
+      height: 321
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Red_X
+    outer:
+      serializedVersion: 2
+      x: 784
+      y: 1045
+      width: 196
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 784
+      y: 1045
+      width: 196
+      height: 198
+    rotated: 0
+    paddingLeft: .025510205
+    paddingRight: .0306122452
+    paddingTop: .0151515156
+    paddingBottom: .0151515156
+  - name: rotateArrow
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 10
+      width: 300
+      height: 293
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 10
+      width: 300
+      height: 293
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MoonKey
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 511
+      width: 231
+      height: 219
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 511
+      width: 231
+      height: 219
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: StarKey
+    outer:
+      serializedVersion: 2
+      x: 1435
+      y: 1765
+      width: 296
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 1435
+      y: 1765
+      width: 296
+      height: 283
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: key head
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1490
+      width: 494
+      height: 558
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1490
+      width: 494
+      height: 558
+    rotated: 0
+    paddingLeft: 1.18016195
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: key body
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 1440
+      width: 622
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 1440
+      width: 622
+      height: 213
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .731511235
+    paddingTop: .873239458
+    paddingBottom: .746478856
+  - name: turnkey3
+    outer:
+      serializedVersion: 2
+      x: 1118
+      y: 1458
+      width: 308
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1118
+      y: 1458
+      width: 308
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turnkey1
+    outer:
+      serializedVersion: 2
+      x: 1427
+      y: 1458
+      width: 308
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1427
+      y: 1458
+      width: 308
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turnkey4
+    outer:
+      serializedVersion: 2
+      x: 1736
+      y: 1458
+      width: 308
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1736
+      y: 1458
+      width: 308
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turnkey2
+    outer:
+      serializedVersion: 2
+      x: 784
+      y: 1244
+      width: 308
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 784
+      y: 1244
+      width: 308
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turn keyhead2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 699
+      width: 469
+      height: 394
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 699
+      width: 469
+      height: 394
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turn keyhead3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 469
+      height: 394
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 469
+      height: 394
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turn keyhead1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1094
+      width: 469
+      height: 395
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1094
+      width: 469
+      height: 395
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turn keyhead4
+    outer:
+      serializedVersion: 2
+      x: 495
+      y: 1654
+      width: 469
+      height: 394
+    inner:
+      serializedVersion: 2
+      x: 495
+      y: 1654
+      width: 469
+      height: 394
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: turn keyhole1
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 1654
+      width: 469
+      height: 394
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 1654
+      width: 469
+      height: 394
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lock body 2
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 70
+      width: 148
+      height: 233
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 70
+      width: 148
+      height: 233
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HandMove
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 382
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 382
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HandDrag
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 253
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 253
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

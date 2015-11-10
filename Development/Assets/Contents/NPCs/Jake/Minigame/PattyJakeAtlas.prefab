@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PattyJakeAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5594c3fe931ce4fb8a93abe18f6be6f8, type: 2}
+  sprites:
+  - name: peteLeftHand
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2402
+      width: 650
+      height: 843
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2402
+      width: 650
+      height: 843
+    rotated: 0
+    paddingLeft: .241538465
+    paddingRight: .0661538467
+    paddingTop: .00830367766
+    paddingBottom: 0
+  - name: jakeRightHand
+    outer:
+      serializedVersion: 2
+      x: 1302
+      y: 2640
+      width: 574
+      height: 605
+    inner:
+      serializedVersion: 2
+      x: 1302
+      y: 2640
+      width: 574
+      height: 605
+    rotated: 0
+    paddingLeft: .224738672
+    paddingRight: .256097555
+    paddingTop: .166942149
+    paddingBottom: .238016531
+  - name: peteRightHand
+    outer:
+      serializedVersion: 2
+      x: 651
+      y: 2402
+      width: 650
+      height: 843
+    inner:
+      serializedVersion: 2
+      x: 651
+      y: 2402
+      width: 650
+      height: 843
+    rotated: 0
+    paddingLeft: .0661538467
+    paddingRight: .241538465
+    paddingTop: .00830367766
+    paddingBottom: 0
+  - name: jakeLeftHand
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1796
+      width: 574
+      height: 605
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1796
+      width: 574
+      height: 605
+    rotated: 0
+    paddingLeft: .256097555
+    paddingRight: .224738672
+    paddingTop: .166942149
+    paddingBottom: .238016531
+  - name: jakeClapHand
+    outer:
+      serializedVersion: 2
+      x: 1598
+      y: 3672
+      width: 392
+      height: 424
+    inner:
+      serializedVersion: 2
+      x: 1598
+      y: 3672
+      width: 392
+      height: 424
+    rotated: 0
+    paddingLeft: .0153061226
+    paddingRight: .0153061226
+    paddingTop: .0070754718
+    paddingBottom: 0
+  - name: peteClapHand
+    outer:
+      serializedVersion: 2
+      x: 1076
+      y: 1927
+      width: 500
+      height: 474
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 1927
+      width: 500
+      height: 474
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0464135036
+    paddingBottom: .00843881816
+  - name: peteClapHandGlow
+    outer:
+      serializedVersion: 2
+      x: 575
+      y: 1901
+      width: 500
+      height: 500
+    inner:
+      serializedVersion: 2
+      x: 575
+      y: 1901
+      width: 500
+      height: 500
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: peteRightHandGlow
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3246
+      width: 834
+      height: 850
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3246
+      width: 834
+      height: 850
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0191846527
+    paddingTop: 0
+    paddingBottom: 0
+  - name: peteClappingAnim
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 3272
+      width: 762
+      height: 824
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 3272
+      width: 762
+      height: 824
+    rotated: 0
+    paddingLeft: .0577427819
+    paddingRight: .0577427819
+    paddingTop: .0315533988
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

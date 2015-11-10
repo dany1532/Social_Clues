@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PlayerAnalytics_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: cf10a6ad4b39e4b618356cb633b0c94b, type: 2}
+  sprites:
+  - name: Tab
+    outer:
+      serializedVersion: 2
+      x: 1121
+      y: 974
+      width: 380
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1121
+      y: 974
+      width: 380
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Lesson Learned Bubble
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 66
+      width: 278
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 66
+      width: 278
+      height: 225
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Nancy Card
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 399
+      width: 278
+      height: 307
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 399
+      width: 278
+      height: 307
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character and Toy Bubble
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 292
+      width: 278
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 292
+      width: 278
+      height: 308
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stars BG
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 125
+      width: 278
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 125
+      width: 278
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Info Bubble
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 601
+      width: 278
+      height: 952
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 601
+      width: 278
+      height: 952
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Blue Endcap
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 1564
+      width: 277
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 1564
+      width: 277
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dotted Line
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 1558
+      width: 256
+      height: 5
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 1558
+      width: 256
+      height: 5
+    rotated: 0
+    paddingLeft: .01953125
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Category Box
+    outer:
+      serializedVersion: 2
+      x: 1783
+      y: 1454
+      width: 263
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 1783
+      y: 1454
+      width: 263
+      height: 99
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Lesson Button
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 92
+      width: 277
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 92
+      width: 277
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0196078438
+    paddingBottom: .186274514
+  - name: home
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 88
+      width: 201
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 88
+      width: 201
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Back Button
+    outer:
+      serializedVersion: 2
+      x: 1783
+      y: 1347
+      width: 201
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 1783
+      y: 1347
+      width: 201
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Okay Button
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 300
+      width: 267
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 300
+      width: 267
+      height: 98
+    rotated: 0
+    paddingLeft: .00374531839
+    paddingRight: .00374531839
+    paddingTop: .0510204099
+    paddingBottom: .20408164
+  - name: Cancel Button
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 201
+      width: 267
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 201
+      width: 267
+      height: 98
+    rotated: 0
+    paddingLeft: .00374531839
+    paddingRight: .00374531839
+    paddingTop: .0510204099
+    paddingBottom: .20408164
+  - name: Lock
+    outer:
+      serializedVersion: 2
+      x: 611
+      y: 846
+      width: 163
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 611
+      y: 846
+      width: 163
+      height: 196
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Data Entry Field
+    outer:
+      serializedVersion: 2
+      x: 1121
+      y: 1039
+      width: 565
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1121
+      y: 1039
+      width: 565
+      height: 90
+    rotated: 0
+    paddingLeft: .0017699115
+    paddingRight: .0017699115
+    paddingTop: .0111111114
+    paddingBottom: .0111111114
+  - name: DifficultyGreyBox
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1554
+      width: 957
+      height: 494
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1554
+      width: 957
+      height: 494
+    rotated: 0
+    paddingLeft: .00208986411
+    paddingRight: .00208986411
+    paddingTop: .0040485831
+    paddingBottom: .00202429155
+  - name: SF_SlapsticComicHD_0
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 1043
+      width: 510
+      height: 510
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 1043
+      width: 510
+      height: 510
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: .00392156886
+  - name: Dora
+    outer:
+      serializedVersion: 2
+      x: 1121
+      y: 1131
+      width: 330
+      height: 422
+    inner:
+      serializedVersion: 2
+      x: 1121
+      y: 1131
+      width: 330
+      height: 422
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Sam
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 1625
+      width: 331
+      height: 423
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 1625
+      width: 331
+      height: 423
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Amy
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 1130
+      width: 330
+      height: 423
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 1130
+      width: 330
+      height: 423
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gaby
+    outer:
+      serializedVersion: 2
+      x: 1452
+      y: 1131
+      width: 330
+      height: 422
+    inner:
+      serializedVersion: 2
+      x: 1452
+      y: 1131
+      width: 330
+      height: 422
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Jake
+    outer:
+      serializedVersion: 2
+      x: 1290
+      y: 1625
+      width: 331
+      height: 423
+    inner:
+      serializedVersion: 2
+      x: 1290
+      y: 1625
+      width: 331
+      height: 423
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Max
+    outer:
+      serializedVersion: 2
+      x: 1622
+      y: 1625
+      width: 331
+      height: 423
+    inner:
+      serializedVersion: 2
+      x: 1622
+      y: 1625
+      width: 331
+      height: 423
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Nancy
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 619
+      width: 331
+      height: 423
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 619
+      width: 331
+      height: 423
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dad
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 707
+      width: 330
+      height: 422
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 707
+      width: 330
+      height: 422
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Eddie
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 195
+      width: 331
+      height: 423
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 195
+      width: 331
+      height: 423
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

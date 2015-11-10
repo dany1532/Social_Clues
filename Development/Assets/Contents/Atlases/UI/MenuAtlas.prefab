@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MenuAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b9cf055c5ba1c13409d6ee029a5ec240, type: 2}
+  sprites:
+  - name: ConversatonProgress
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 356
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 356
+      height: 101
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SC_New Logo_FINAL_w TAG
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 114
+      width: 1409
+      height: 904
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 114
+      width: 1409
+      height: 904
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SFSlapstickComic_0
+    outer:
+      serializedVersion: 2
+      x: 1777
+      y: 1778
+      width: 255
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 1777
+      y: 1778
+      width: 255
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: 1.43809521
+  - name: Arial_0
+    outer:
+      serializedVersion: 2
+      x: 1777
+      y: 1884
+      width: 251
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 1777
+      y: 1884
+      width: 251
+      height: 164
+    rotated: 0
+    paddingLeft: .00398406386
+    paddingRight: .0159362555
+    paddingTop: .00609756075
+    paddingBottom: .554878056
+  - name: Cafeteria_Test_Layered_FileOpenDoor
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1019
+      width: 1776
+      height: 1029
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1019
+      width: 1776
+      height: 1029
+    rotated: 0
+    paddingLeft: .0106981983
+    paddingRight: .0703828856
+    paddingTop: .0223517977
+    paddingBottom: .0272108838
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

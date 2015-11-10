@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NG_Pete_Walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5c23c3884c2db45089ee13a8515a96ff, type: 2}
+  sprites:
+  - name: Pete_Walk05
+    outer:
+      serializedVersion: 2
+      x: 1321
+      y: 1501
+      width: 323
+      height: 547
+    inner:
+      serializedVersion: 2
+      x: 1321
+      y: 1501
+      width: 323
+      height: 547
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Walk02
+    outer:
+      serializedVersion: 2
+      x: 1645
+      y: 1501
+      width: 323
+      height: 547
+    inner:
+      serializedVersion: 2
+      x: 1645
+      y: 1501
+      width: 323
+      height: 547
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Walk01
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 905
+      width: 323
+      height: 547
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 905
+      width: 323
+      height: 547
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Walk03
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 357
+      width: 323
+      height: 547
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 357
+      width: 323
+      height: 547
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Walk04
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 905
+      width: 323
+      height: 547
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 905
+      width: 323
+      height: 547
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Stand
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 1471
+      width: 323
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 1471
+      width: 0
+      height: 0
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Marker
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 816
+      width: 314
+      height: 638
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 816
+      width: 314
+      height: 638
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Listening
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1455
+      width: 345
+      height: 593
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1455
+      width: 345
+      height: 593
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Decisive
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 1453
+      width: 329
+      height: 595
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 1453
+      width: 329
+      height: 595
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Content
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 323
+      width: 300
+      height: 581
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 323
+      width: 300
+      height: 581
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Thinking
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 210
+      width: 326
+      height: 605
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 210
+      width: 326
+      height: 605
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pete_Sad
+    outer:
+      serializedVersion: 2
+      x: 1000
+      y: 1483
+      width: 320
+      height: 565
+    inner:
+      serializedVersion: 2
+      x: 1000
+      y: 1483
+      width: 320
+      height: 565
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

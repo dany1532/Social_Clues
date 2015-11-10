@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0196e2f888416fb43a22fc495375bebf, type: 2}
+  sprites:
+  - name: FindIcon
+    outer:
+      serializedVersion: 2
+      x: 149
+      y: 1397
+      width: 204
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 149
+      y: 1397
+      width: 204
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .210784316
+    paddingTop: 0
+    paddingBottom: .276119411
+  - name: FoundMarkerIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1404
+      width: 148
+      height: 271
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1404
+      width: 148
+      height: 271
+    rotated: 0
+    paddingLeft: .155405402
+    paddingRight: .189189196
+    paddingTop: .0811808109
+    paddingBottom: .0664206669
+  - name: MissingMarkerIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1132
+      width: 147
+      height: 271
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1132
+      width: 147
+      height: 271
+    rotated: 0
+    paddingLeft: .163265303
+    paddingRight: .190476194
+    paddingTop: .0774907768
+    paddingBottom: .070110701
+  - name: FoundLegoIcon
+    outer:
+      serializedVersion: 2
+      x: 1290
+      y: 1702
+      width: 377
+      height: 224
+    inner:
+      serializedVersion: 2
+      x: 1290
+      y: 1702
+      width: 377
+      height: 224
+    rotated: 0
+    paddingLeft: .0106100794
+    paddingRight: .00265251985
+    paddingTop: .00892857183
+    paddingBottom: .0178571437
+  - name: MissingLegoIcon
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 1698
+      width: 377
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 1698
+      width: 377
+      height: 228
+    rotated: 0
+    paddingLeft: .0106100794
+    paddingRight: .00265251985
+    paddingTop: .00877192989
+    paddingBottom: 0
+  - name: FoundEngineIcon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1676
+      width: 455
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1676
+      width: 455
+      height: 250
+    rotated: 0
+    paddingLeft: .0703296736
+    paddingRight: .0549450554
+    paddingTop: .131999999
+    paddingBottom: .0839999989
+  - name: MissingEngineIcon
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 1676
+      width: 455
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 456
+      y: 1676
+      width: 455
+      height: 250
+    rotated: 0
+    paddingLeft: .0703296736
+    paddingRight: .0549450554
+    paddingTop: .131999999
+    paddingBottom: .0839999989
+  - name: PocketTray
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1927
+      width: 1536
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1927
+      width: 1536
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FoundCar
+    outer:
+      serializedVersion: 2
+      x: 1668
+      y: 1783
+      width: 229
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 1668
+      y: 1783
+      width: 229
+      height: 143
+    rotated: 0
+    paddingLeft: .0480349362
+    paddingRight: .0698689967
+    paddingTop: .181818187
+    paddingBottom: .160839155
+  - name: MissingCar
+    outer:
+      serializedVersion: 2
+      x: 149
+      y: 1532
+      width: 229
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 149
+      y: 1532
+      width: 229
+      height: 143
+    rotated: 0
+    paddingLeft: .0480349362
+    paddingRight: .0698689967
+    paddingTop: .181818187
+    paddingBottom: .160839155
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

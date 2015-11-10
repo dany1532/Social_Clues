@@ -1,0 +1,140 @@
+{"frames": {
+
+"Amy1.png":
+{
+	"frame": {"x":2,"y":2,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"Amy2.png":
+{
+	"frame": {"x":733,"y":2,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"Amy3.png":
+{
+	"frame": {"x":2,"y":918,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"Amy4.png":
+{
+	"frame": {"x":733,"y":918,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"Amy5.png":
+{
+	"frame": {"x":2,"y":1834,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"Amy6.png":
+{
+	"frame": {"x":733,"y":1834,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"AmyGlow.png":
+{
+	"frame": {"x":2,"y":2750,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"AmyStanding.png":
+{
+	"frame": {"x":733,"y":2750,"w":729,"h":914},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":729,"h":914},
+	"sourceSize": {"w":729,"h":914}
+},
+"HappyEmotion.png":
+{
+	"frame": {"x":1464,"y":2750,"w":141,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":177},
+	"sourceSize": {"w":141,"h":177}
+},
+"ScaredEmotion.png":
+{
+	"frame": {"x":1607,"y":2750,"w":141,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":177},
+	"sourceSize": {"w":141,"h":177}
+},
+"Scenario1.png":
+{
+	"frame": {"x":1750,"y":2750,"w":276,"h":374},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":374},
+	"sourceSize": {"w":276,"h":374}
+},
+"Scenario2.png":
+{
+	"frame": {"x":2,"y":3666,"w":276,"h":373},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":373},
+	"sourceSize": {"w":276,"h":373}
+},
+"Scenario3.png":
+{
+	"frame": {"x":280,"y":3666,"w":276,"h":374},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":374},
+	"sourceSize": {"w":276,"h":374}
+},
+"Scenario4.png":
+{
+	"frame": {"x":558,"y":3666,"w":276,"h":373},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":373},
+	"sourceSize": {"w":276,"h":373}
+},
+"TiredEmotion.png":
+{
+	"frame": {"x":836,"y":3666,"w":141,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":177},
+	"sourceSize": {"w":141,"h":177}
+},
+"UpsetEmotion.png":
+{
+	"frame": {"x":979,"y":3666,"w":141,"h":177},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":177},
+	"sourceSize": {"w":141,"h":177}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Amy.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":4096},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8723531fedaf08224e646de0c2c728c6:1/1$"
+}
+}

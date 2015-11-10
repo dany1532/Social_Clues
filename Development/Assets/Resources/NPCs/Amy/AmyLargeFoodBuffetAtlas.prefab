@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: AmyLargeFoodBuffetAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: da8ae562c6450a4459cfea814b1c0459, type: 2}
+  sprites:
+  - name: main_hamburger
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1748
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1748
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_dumplings
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 1748
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 1748
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_strawberries
+    outer:
+      serializedVersion: 2
+      x: 602
+      y: 1748
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 602
+      y: 1748
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_cherrypie
+    outer:
+      serializedVersion: 2
+      x: 903
+      y: 1748
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 1748
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_onionrings
+    outer:
+      serializedVersion: 2
+      x: 1204
+      y: 1748
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1204
+      y: 1748
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_sandwichrolls
+    outer:
+      serializedVersion: 2
+      x: 1505
+      y: 1748
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1505
+      y: 1748
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_chocolatecake
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1447
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1447
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_burrito
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1146
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1146
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_salmon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 845
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 845
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_fries
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 544
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 544
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_flanpudding
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 243
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 243
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_carrots
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 1447
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 1447
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_curry
+    outer:
+      serializedVersion: 2
+      x: 602
+      y: 1447
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 602
+      y: 1447
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_broccoli
+    outer:
+      serializedVersion: 2
+      x: 903
+      y: 1447
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 1447
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_custard
+    outer:
+      serializedVersion: 2
+      x: 1204
+      y: 1447
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1204
+      y: 1447
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_icecreamsundae
+    outer:
+      serializedVersion: 2
+      x: 1505
+      y: 1447
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1505
+      y: 1447
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_salad
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 1146
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 1146
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_pizza
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 845
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 845
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_steak
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 544
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 544
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_tiramisu
+    outer:
+      serializedVersion: 2
+      x: 301
+      y: 243
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 301
+      y: 243
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dess_chocolatebar
+    outer:
+      serializedVersion: 2
+      x: 602
+      y: 1146
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 602
+      y: 1146
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_lasagna
+    outer:
+      serializedVersion: 2
+      x: 903
+      y: 1146
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 1146
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: app_peas
+    outer:
+      serializedVersion: 2
+      x: 1204
+      y: 1146
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1204
+      y: 1146
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_tacos
+    outer:
+      serializedVersion: 2
+      x: 1505
+      y: 1146
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1505
+      y: 1146
+      width: 300
+      height: 300
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

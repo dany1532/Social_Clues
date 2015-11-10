@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ToysOverlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6681444aaba25e546af9493f6cef68b0, type: 2}
+  sprites:
+  - name: Brick_x1Overlay
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 195
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 195
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Brick_x2Overlay
+    outer:
+      serializedVersion: 2
+      x: 199
+      y: 2
+      width: 221
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 199
+      y: 2
+      width: 221
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Brick_x4 NarrowOverlay
+    outer:
+      serializedVersion: 2
+      x: 422
+      y: 2
+      width: 256
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 2
+      width: 256
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Brick_x4_ThickOverlay
+    outer:
+      serializedVersion: 2
+      x: 680
+      y: 2
+      width: 256
+      height: 254
+    inner:
+      serializedVersion: 2
+      x: 680
+      y: 2
+      width: 256
+      height: 254
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Brick_x8Overlay
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 260
+      width: 256
+      height: 236
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 260
+      width: 256
+      height: 236
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CabooseOverlay
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 260
+      width: 256
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 260
+      width: 256
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CattleCarOverlay
+    outer:
+      serializedVersion: 2
+      x: 518
+      y: 260
+      width: 256
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 518
+      y: 260
+      width: 256
+      height: 161
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CoalCarOverlay
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 498
+      width: 256
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 498
+      width: 256
+      height: 181
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CrayonOverlay
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 498
+      width: 220
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 498
+      width: 220
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: EngineOverlay
+    outer:
+      serializedVersion: 2
+      x: 482
+      y: 498
+      width: 256
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 498
+      width: 256
+      height: 197
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: MarkerOverlay
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 498
+      width: 222
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 498
+      width: 222
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PassengerCarOverlay
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 756
+      width: 256
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 756
+      width: 256
+      height: 161
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PencilOverlay
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 756
+      width: 218
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 756
+      width: 218
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Plus Sign
+    outer:
+      serializedVersion: 2
+      x: 480
+      y: 756
+      width: 74
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 480
+      y: 756
+      width: 74
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

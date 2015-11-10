@@ -1,0 +1,36 @@
+{"frames": {
+
+"ColoredPencilOverlay.png":
+{
+	"frame": {"x":0,"y":0,"w":1156,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1156,"h":113},
+	"sourceSize": {"w":1156,"h":113}
+},
+"CrayonOverlay.png":
+{
+	"frame": {"x":0,"y":113,"w":1026,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1026,"h":134},
+	"sourceSize": {"w":1026,"h":134}
+},
+"MarkerOverlay.png":
+{
+	"frame": {"x":0,"y":247,"w":1276,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1276,"h":144},
+	"sourceSize": {"w":1276,"h":144}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Overlay.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4b9d6a4251b0f9e59a576d9beda5ec59:ec172a6db4ccc5a8858b55f8039d0739:8f8ea8fd19a839ef2a99bb48343bd1b2$"
+}
+}

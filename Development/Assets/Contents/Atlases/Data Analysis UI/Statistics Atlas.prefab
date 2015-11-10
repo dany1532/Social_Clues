@@ -1,0 +1,597 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Statistics Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c928599f1b1794a9db54e0583e62c999, type: 2}
+  sprites:
+  - name: arrow_down_temp
+    outer:
+      serializedVersion: 2
+      x: 1673
+      y: 1792
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 1673
+      y: 1792
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pixel
+    outer:
+      serializedVersion: 2
+      x: 401
+      y: 1652
+      width: 1
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 401
+      y: 1652
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SF_Cartoonist_Hard_0
+    outer:
+      serializedVersion: 2
+      x: 1579
+      y: 1560
+      width: 255
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 1579
+      y: 1560
+      width: 255
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: 1.90909088
+  - name: Home Tab
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1304
+      width: 475
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1304
+      width: 475
+      height: 237
+    rotated: 0
+    paddingLeft: .00210526306
+    paddingRight: .00421052612
+    paddingTop: .00843881816
+    paddingBottom: .00843881816
+  - name: Return
+    outer:
+      serializedVersion: 2
+      x: 1095
+      y: 1811
+      width: 577
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 1095
+      y: 1811
+      width: 577
+      height: 237
+    rotated: 0
+    paddingLeft: .00346620451
+    paddingRight: .00173310225
+    paddingTop: .00843881816
+    paddingBottom: .00843881816
+  - name: Uncolored Tab
+    outer:
+      serializedVersion: 2
+      x: 1095
+      y: 1725
+      width: 381
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 1095
+      y: 1725
+      width: 381
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SFSlapstickComic_0
+    outer:
+      serializedVersion: 2
+      x: 1323
+      y: 1543
+      width: 255
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 1323
+      y: 1543
+      width: 255
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: 1.43809521
+  - name: SFSlapstickComic_SC_0
+    outer:
+      serializedVersion: 2
+      x: 1673
+      y: 1682
+      width: 255
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1673
+      y: 1682
+      width: 255
+      height: 109
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: 1.34862387
+  - name: Gauge
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1542
+      width: 1322
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1542
+      width: 1322
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gauge Head
+    outer:
+      serializedVersion: 2
+      x: 932
+      y: 1683
+      width: 161
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 932
+      y: 1683
+      width: 161
+      height: 137
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Happy Face
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 1107
+      width: 196
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 1107
+      width: 196
+      height: 196
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Sad Face
+    outer:
+      serializedVersion: 2
+      x: 228
+      y: 850
+      width: 196
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 228
+      y: 850
+      width: 196
+      height: 196
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Clock
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1649
+      width: 399
+      height: 399
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1649
+      width: 399
+      height: 399
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Text Option
+    outer:
+      serializedVersion: 2
+      x: 400
+      y: 1656
+      width: 531
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 1656
+      width: 531
+      height: 164
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Max
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 109
+      width: 172
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 109
+      width: 172
+      height: 173
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Jake
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 850
+      width: 172
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 850
+      width: 172
+      height: 172
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Amy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 283
+      width: 172
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 283
+      width: 172
+      height: 173
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Eddie
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 1369
+      width: 173
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 1369
+      width: 173
+      height: 172
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GreyStar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1047
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1047
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: More Info Tab
+    outer:
+      serializedVersion: 2
+      x: 400
+      y: 1821
+      width: 694
+      height: 227
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 1821
+      width: 694
+      height: 227
+    rotated: 0
+    paddingLeft: .0028818443
+    paddingRight: .00144092215
+    paddingTop: .00881057233
+    paddingBottom: .00440528616
+  - name: More Info
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 819
+      width: 227
+      height: 227
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 819
+      width: 227
+      height: 227
+    rotated: 0
+    paddingLeft: .00881057233
+    paddingRight: .00440528616
+    paddingTop: .00881057233
+    paddingBottom: .00440528616
+  - name: Drop Down
+    outer:
+      serializedVersion: 2
+      x: 1095
+      y: 1650
+      width: 75
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 1095
+      y: 1650
+      width: 75
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: L Piece
+    outer:
+      serializedVersion: 2
+      x: 1477
+      y: 1717
+      width: 53
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1477
+      y: 1717
+      width: 53
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arial_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 654
+      width: 251
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 654
+      width: 251
+      height: 164
+    rotated: 0
+    paddingLeft: .00398406386
+    paddingRight: .0159362555
+    paddingTop: .00609756075
+    paddingBottom: .554878056
+  - name: Neutral Face
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 457
+      width: 196
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 457
+      width: 196
+      height: 196
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Nancy
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 283
+      width: 172
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 283
+      width: 172
+      height: 173
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dad
+    outer:
+      serializedVersion: 2
+      x: 173
+      y: 109
+      width: 172
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 173
+      y: 109
+      width: 172
+      height: 173
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Sam
+    outer:
+      serializedVersion: 2
+      x: 197
+      y: 480
+      width: 173
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 197
+      y: 480
+      width: 173
+      height: 173
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dora
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 1023
+      width: 172
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 1023
+      width: 172
+      height: 172
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Gaby
+    outer:
+      serializedVersion: 2
+      x: 476
+      y: 1196
+      width: 172
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 476
+      y: 1196
+      width: 172
+      height: 172
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

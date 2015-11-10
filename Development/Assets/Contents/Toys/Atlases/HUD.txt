@@ -1,0 +1,132 @@
+{"frames": {
+
+"Brick_x1.png":
+{
+	"frame": {"x":2,"y":2,"w":195,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":195,"h":256},
+	"sourceSize": {"w":195,"h":256}
+},
+"Brick_x2.png":
+{
+	"frame": {"x":199,"y":2,"w":221,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":256},
+	"sourceSize": {"w":221,"h":256}
+},
+"Brick_x4 Narrow.png":
+{
+	"frame": {"x":422,"y":2,"w":256,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":255},
+	"sourceSize": {"w":256,"h":255}
+},
+"Brick_x4_Thick.png":
+{
+	"frame": {"x":680,"y":2,"w":256,"h":254},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":254},
+	"sourceSize": {"w":256,"h":254}
+},
+"Brick_x8.png":
+{
+	"frame": {"x":2,"y":260,"w":256,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":236},
+	"sourceSize": {"w":256,"h":236}
+},
+"Caboose.png":
+{
+	"frame": {"x":260,"y":260,"w":256,"h":195},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":195},
+	"sourceSize": {"w":256,"h":195}
+},
+"CattleCar.png":
+{
+	"frame": {"x":518,"y":260,"w":256,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":164},
+	"sourceSize": {"w":256,"h":164}
+},
+"CoalCar.png":
+{
+	"frame": {"x":2,"y":498,"w":256,"h":181},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":181},
+	"sourceSize": {"w":256,"h":181}
+},
+"Crayon.png":
+{
+	"frame": {"x":260,"y":498,"w":220,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":256},
+	"sourceSize": {"w":220,"h":256}
+},
+"Engine.png":
+{
+	"frame": {"x":482,"y":498,"w":256,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":196},
+	"sourceSize": {"w":256,"h":196}
+},
+"Footprints.png":
+{
+	"frame": {"x":2,"y":756,"w":375,"h":205},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":205},
+	"sourceSize": {"w":375,"h":205}
+},
+"MagnifyingGlass.png":
+{
+	"frame": {"x":379,"y":756,"w":170,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":170,"h":345},
+	"sourceSize": {"w":170,"h":345}
+},
+"Marker.png":
+{
+	"frame": {"x":551,"y":756,"w":222,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":256},
+	"sourceSize": {"w":222,"h":256}
+},
+"PassengerCar.png":
+{
+	"frame": {"x":2,"y":1103,"w":256,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":161},
+	"sourceSize": {"w":256,"h":161}
+},
+"Pencil.png":
+{
+	"frame": {"x":260,"y":1103,"w":218,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":256},
+	"sourceSize": {"w":218,"h":256}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "HUD.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:87e9a0817b1106c8e93f2578026e5572:8b65c3a3f96c697bdc1d33de71271bed:601031240f266b07d3bcd79eb16e8ada$"
+}
+}

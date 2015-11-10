@@ -1,0 +1,669 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MadMaxAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0496d48ea6ee4c7488c424d534f23194, type: 2}
+  sprites:
+  - name: ClueRight
+    outer:
+      serializedVersion: 2
+      x: 828
+      y: 1349
+      width: 346
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 1349
+      width: 346
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00289017335
+    paddingTop: 0
+    paddingBottom: .0068965517
+  - name: Replies
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1495
+      width: 708
+      height: 553
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1495
+      width: 708
+      height: 553
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SpeechBubble
+    outer:
+      serializedVersion: 2
+      x: 709
+      y: 1509
+      width: 468
+      height: 539
+    inner:
+      serializedVersion: 2
+      x: 709
+      y: 1509
+      width: 468
+      height: 539
+    rotated: 0
+    paddingLeft: .00213675224
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ClueLeft
+    outer:
+      serializedVersion: 2
+      x: 1175
+      y: 1364
+      width: 359
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 1175
+      y: 1364
+      width: 359
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0076923077
+    paddingBottom: 0
+  - name: AnswerLabel
+    outer:
+      serializedVersion: 2
+      x: 849
+      y: 1221
+      width: 475
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 849
+      y: 1221
+      width: 475
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CluePlus
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 927
+      width: 87
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 927
+      width: 87
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Answer
+    outer:
+      serializedVersion: 2
+      x: 1178
+      y: 1769
+      width: 416
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 1178
+      y: 1769
+      width: 416
+      height: 279
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AnswerEqual
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 118
+      width: 78
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 118
+      width: 78
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Drink Options 6.5.4
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 761
+      width: 155
+      height: 212
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 761
+      width: 155
+      height: 212
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Game Options 6.3.5
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 461
+      width: 165
+      height: 274
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 461
+      width: 165
+      height: 274
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shirt Options 6.4.2
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 1249
+      width: 270
+      height: 245
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 1249
+      width: 270
+      height: 245
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Game Options 6.3.3
+    outer:
+      serializedVersion: 2
+      x: 1535
+      y: 1333
+      width: 271
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 1535
+      y: 1333
+      width: 271
+      height: 161
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00621118024
+    paddingBottom: 0
+  - name: Shirt Options 6.4.3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 404
+      width: 237
+      height: 231
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 404
+      width: 237
+      height: 231
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Drink Options 6.5.5
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 229
+      width: 187
+      height: 231
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 229
+      width: 187
+      height: 231
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shirt Options 6.4.5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 237
+      height: 220
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 237
+      height: 220
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Game Options 6.3.5_2
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 736
+      width: 165
+      height: 274
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 736
+      width: 165
+      height: 274
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Snack Options 6.2.5
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 1011
+      width: 201
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 1011
+      width: 201
+      height: 237
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Drink Options 6.5.2
+    outer:
+      serializedVersion: 2
+      x: 1438
+      y: 1532
+      width: 143
+      height: 236
+    inner:
+      serializedVersion: 2
+      x: 1438
+      y: 1532
+      width: 143
+      height: 236
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Drink Options 6.5.3
+    outer:
+      serializedVersion: 2
+      x: 1906
+      y: 1774
+      width: 125
+      height: 274
+    inner:
+      serializedVersion: 2
+      x: 1906
+      y: 1774
+      width: 125
+      height: 274
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shirt Options 6.4.4
+    outer:
+      serializedVersion: 2
+      x: 1595
+      y: 1515
+      width: 277
+      height: 244
+    inner:
+      serializedVersion: 2
+      x: 1595
+      y: 1515
+      width: 277
+      height: 244
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Snack Options 6.2.3
+    outer:
+      serializedVersion: 2
+      x: 1873
+      y: 1504
+      width: 132
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 1873
+      y: 1504
+      width: 132
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0075757578
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Snack Options 6.2.4
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 1304
+      width: 293
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 1304
+      width: 293
+      height: 190
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Game Options 6.3.4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 181
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 181
+      height: 176
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Snack Options 6.2.1
+    outer:
+      serializedVersion: 2
+      x: 1178
+      y: 1504
+      width: 259
+      height: 264
+    inner:
+      serializedVersion: 2
+      x: 1178
+      y: 1504
+      width: 259
+      height: 264
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Drink Options 6.5.1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 866
+      width: 215
+      height: 328
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 866
+      width: 215
+      height: 328
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Game Options 6.3.2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 636
+      width: 259
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 636
+      width: 259
+      height: 229
+    rotated: 0
+    paddingLeft: .0193050187
+    paddingRight: .142857149
+    paddingTop: 0
+    paddingBottom: .0131004369
+  - name: Game Options 6.3.1
+    outer:
+      serializedVersion: 2
+      x: 1595
+      y: 1760
+      width: 310
+      height: 288
+    inner:
+      serializedVersion: 2
+      x: 1595
+      y: 1760
+      width: 310
+      height: 288
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Shirt Options 6.4.1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1195
+      width: 262
+      height: 299
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1195
+      width: 262
+      height: 299
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Snack Options 6.2.2
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 1173
+      width: 314
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 1173
+      width: 314
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00318471342
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Options
+    outer:
+      serializedVersion: 2
+      x: 849
+      y: 1118
+      width: 340
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 849
+      y: 1118
+      width: 340
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Check Mark
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 28
+      width: 199
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 28
+      width: 199
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0251256283
+    paddingTop: 0
+    paddingBottom: .0199999996
+  - name: Red_X
+    outer:
+      serializedVersion: 2
+      x: 534
+      y: 974
+      width: 196
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 534
+      y: 974
+      width: 196
+      height: 198
+    rotated: 0
+    paddingLeft: .025510205
+    paddingRight: .0306122452
+    paddingTop: .0151515156
+    paddingBottom: .0151515156
+  - name: HandDrag
+    outer:
+      serializedVersion: 2
+      x: 1807
+      y: 1366
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1807
+      y: 1366
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HandMove
+    outer:
+      serializedVersion: 2
+      x: 690
+      y: 845
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 690
+      y: 845
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

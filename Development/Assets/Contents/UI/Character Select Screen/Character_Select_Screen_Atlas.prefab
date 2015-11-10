@@ -1,0 +1,597 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Character_Select_Screen_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 45d237445bd7a4eeb969b522766aa6de, type: 2}
+  sprites:
+  - name: Character Bubble Bottom
+    outer:
+      serializedVersion: 2
+      x: 1604
+      y: 1621
+      width: 335
+      height: 427
+    inner:
+      serializedVersion: 2
+      x: 1604
+      y: 1621
+      width: 335
+      height: 427
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Select Highlight
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 177
+      width: 143
+      height: 143
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 177
+      width: 143
+      height: 143
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Bubble Top_1
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 1095
+      width: 321
+      height: 440
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 1095
+      width: 321
+      height: 439
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Bubble Top_2
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 1608
+      width: 367
+      height: 440
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 1608
+      width: 367
+      height: 428
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Back Button
+    outer:
+      serializedVersion: 2
+      x: 809
+      y: 601
+      width: 201
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 809
+      y: 601
+      width: 201
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Bubble Top_4
+    outer:
+      serializedVersion: 2
+      x: 881
+      y: 1610
+      width: 362
+      height: 438
+    inner:
+      serializedVersion: 2
+      x: 881
+      y: 1610
+      width: 362
+      height: 437
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Bubble Top_3
+    outer:
+      serializedVersion: 2
+      x: 1244
+      y: 1610
+      width: 359
+      height: 438
+    inner:
+      serializedVersion: 2
+      x: 1244
+      y: 1610
+      width: 359
+      height: 434
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Bubble Top_blank
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 714
+      width: 320
+      height: 380
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 714
+      width: 320
+      height: 380
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Character Card_Blank
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1113
+      width: 330
+      height: 422
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1113
+      width: 330
+      height: 422
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Confirm Button_Blank
+    outer:
+      serializedVersion: 2
+      x: 1608
+      y: 1010
+      width: 425
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1608
+      y: 1010
+      width: 425
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Check Mark
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 50
+      width: 204
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 50
+      width: 204
+      height: 204
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Choose Characters Blank
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 967
+      width: 949
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 967
+      width: 949
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info Bubble_Blank
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 680
+      width: 335
+      height: 427
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 680
+      width: 335
+      height: 427
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info Card_Blank with Categories
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 255
+      width: 334
+      height: 424
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 255
+      width: 334
+      height: 424
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Info Bubble
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1108
+      width: 335
+      height: 427
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1108
+      width: 335
+      height: 427
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Play button
+    outer:
+      serializedVersion: 2
+      x: 1608
+      y: 859
+      width: 201
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 1608
+      y: 859
+      width: 201
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Level Specific Tab
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 321
+      width: 150
+      height: 499
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 321
+      width: 150
+      height: 499
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Selected Character Border
+    outer:
+      serializedVersion: 2
+      x: 1653
+      y: 1151
+      width: 324
+      height: 384
+    inner:
+      serializedVersion: 2
+      x: 1653
+      y: 1151
+      width: 324
+      height: 384
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: X_icon
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 126
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 126
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Toy Card No words
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 1113
+      width: 331
+      height: 422
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 1113
+      width: 331
+      height: 422
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Yellow Character Selected Bubble
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 338
+      width: 315
+      height: 375
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 338
+      width: 315
+      height: 375
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: home
+    outer:
+      serializedVersion: 2
+      x: 1810
+      y: 860
+      width: 201
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 1810
+      y: 860
+      width: 201
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Choose a level Box
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 821
+      width: 949
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 821
+      width: 949
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Left Arrow
+    outer:
+      serializedVersion: 2
+      x: 1011
+      y: 602
+      width: 126
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 1011
+      y: 602
+      width: 126
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Level Name Box
+    outer:
+      serializedVersion: 2
+      x: 809
+      y: 708
+      width: 519
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 809
+      y: 708
+      width: 519
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Right Arrow
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 20
+      width: 127
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 20
+      width: 127
+      height: 105
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Unknown_Character_Select_Icon
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 41
+      width: 135
+      height: 135
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 41
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SF_SlapsticComicHD_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1536
+      width: 512
+      height: 512
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1536
+      width: 512
+      height: 512
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arial_0
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 81
+      width: 256
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 81
+      width: 256
+      height: 256
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Toy Card Blank
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 1113
+      width: 331
+      height: 422
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 1113
+      width: 331
+      height: 422
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: VoiceOversKate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.5970573, y: -.100000001, z: 48.6864967}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca1b6db677ee46b690d22ab0a70c43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceOvers:
+  - voiceOverId: 11
+    voiceOverAudio: {fileID: 8300000, guid: ac78a744810eeb3448bebf86484be9cc, type: 3}
+  - voiceOverId: 13
+    voiceOverAudio: {fileID: 8300000, guid: 7ce6019493ad96440a7d16801f4e00ea, type: 3}
+  - voiceOverId: 15
+    voiceOverAudio: {fileID: 8300000, guid: 7668c88aed156fd478277782aeb5f8c1, type: 3}
+  - voiceOverId: 17
+    voiceOverAudio: {fileID: 8300000, guid: beb4d0443679d4046adb8d306e693b4d, type: 3}
+  - voiceOverId: 21
+    voiceOverAudio: {fileID: 8300000, guid: 5d25b3ddfdd61d24691abc52bd60b167, type: 3}
+  - voiceOverId: 23
+    voiceOverAudio: {fileID: 8300000, guid: c8954c81feacacf4c8dac17b2dd1cd8d, type: 3}
+  - voiceOverId: 25
+    voiceOverAudio: {fileID: 8300000, guid: 4a5d5f99c9390234baa1ab4c183b9c16, type: 3}
+  - voiceOverId: 27
+    voiceOverAudio: {fileID: 8300000, guid: 1c2a13473c64ad84391e1dbefd41e904, type: 3}
+  - voiceOverId: 31
+    voiceOverAudio: {fileID: 8300000, guid: 3c27fca207434e24eb7eed0691446034, type: 3}
+  - voiceOverId: 33
+    voiceOverAudio: {fileID: 8300000, guid: 76ca8cfa57316dd45bef7945aacd5ca3, type: 3}
+  - voiceOverId: 35
+    voiceOverAudio: {fileID: 8300000, guid: de3af4646f4b2de43bbb809226e13591, type: 3}
+  - voiceOverId: 37
+    voiceOverAudio: {fileID: 8300000, guid: a0685514c01cd554ba73d67b20c4c6e6, type: 3}
+  - voiceOverId: 51
+    voiceOverAudio: {fileID: 8300000, guid: 067e41f8405018a40989603c9d5e3409, type: 3}
+  - voiceOverId: 52
+    voiceOverAudio: {fileID: 8300000, guid: 9222cfc9f4f816641b2222700041ed70, type: 3}
+  - voiceOverId: 100
+    voiceOverAudio: {fileID: 8300000, guid: 7e5de0b0bdf634b8d9312c6ca00eafff, type: 3}
+  - voiceOverId: 101
+    voiceOverAudio: {fileID: 8300000, guid: 4122b52dfd1d74f9ba8f8e4c1bcd0a9c, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

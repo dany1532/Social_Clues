@@ -1,0 +1,36 @@
+{"frames": {
+
+"ColoredPencilBG.png":
+{
+	"frame": {"x":0,"y":0,"w":1156,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1156,"h":113},
+	"sourceSize": {"w":1156,"h":113}
+},
+"CrayonBG.png":
+{
+	"frame": {"x":0,"y":113,"w":1026,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1026,"h":134},
+	"sourceSize": {"w":1026,"h":134}
+},
+"MarkerBG.png":
+{
+	"frame": {"x":0,"y":247,"w":1276,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1276,"h":144},
+	"sourceSize": {"w":1276,"h":144}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Normal.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b84f9989572e90b196470593ffa6a464:9f4fdcfaaf1317798cda0158759b08aa:5e7c0d2bb10f1a5e5387da35bcdbeba3$"
+}
+}

@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Cabinets
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.41548467, y: .346817017, z: 3.21430826}
+        inSlope: {x: -5.08626317e-06, y: -4.37100738e-07, z: 3.60086751}
+        outSlope: {x: -5.08626317e-06, y: -4.37100738e-07, z: 3.60086751}
+        tangentMode: 1869771635
+      - time: .75
+        value: {x: -3.41548848, y: .346816689, z: 5.91495895}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 222660614
+      - time: 1.5
+        value: {x: -3.41548467, y: .346817017, z: 3.21430826}
+        inSlope: {x: 5.08626317e-06, y: 4.37100738e-07, z: -3.60086751}
+        outSlope: {x: 5.08626317e-06, y: 4.37100738e-07, z: -3.60086751}
+        tangentMode: 143286488
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: S_CabinetDrawer_Bottom
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.43832254, y: 3.27677155, z: 3.21430969}
+        inSlope: {x: -5.7220459e-06, y: -3.17891448e-07, z: 2.22397614}
+        outSlope: {x: -5.7220459e-06, y: -3.17891448e-07, z: 2.22397614}
+        tangentMode: 4
+      - time: .75
+        value: {x: -3.43832684, y: 3.27677131, z: 4.88229179}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 7562613
+      - time: 1.5
+        value: {x: -3.43832254, y: 3.27677155, z: 3.21430969}
+        inSlope: {x: 5.7220459e-06, y: 3.17891448e-07, z: -2.22397614}
+        outSlope: {x: 5.7220459e-06, y: 3.17891448e-07, z: -2.22397614}
+        tangentMode: 1065353304
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: S_CabinetDrawer_Mid
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.46307683, y: 6.33007193, z: 3.21431422}
+        inSlope: {x: -7.31150294e-06, y: 0, z: 1.79781687}
+        outSlope: {x: -7.31150294e-06, y: 0, z: 1.79781687}
+        tangentMode: 8
+      - time: .75
+        value: {x: -3.46308231, y: 6.33007193, z: 4.56267691}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 55
+      - time: 1.5
+        value: {x: -3.46307683, y: 6.33007193, z: 3.21431422}
+        inSlope: {x: 7.31150294e-06, y: 0, z: -1.79781687}
+        outSlope: {x: 7.31150294e-06, y: 0, z: -1.79781687}
+        tangentMode: 138416144
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: S_CabinetDrawer_Top
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1.5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.41548467
+        inSlope: -5.08626317e-06
+        outSlope: -5.08626317e-06
+        tangentMode: 10
+      - time: .75
+        value: -3.41548848
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: -3.41548467
+        inSlope: 5.08626317e-06
+        outSlope: 5.08626317e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: S_CabinetDrawer_Bottom
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .346817017
+        inSlope: -4.37100738e-07
+        outSlope: -4.37100738e-07
+        tangentMode: 10
+      - time: .75
+        value: .346816689
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: .346817017
+        inSlope: 4.37100738e-07
+        outSlope: 4.37100738e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: S_CabinetDrawer_Bottom
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.21430826
+        inSlope: 3.60086751
+        outSlope: 3.60086751
+        tangentMode: 10
+      - time: .75
+        value: 5.91495895
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: 3.21430826
+        inSlope: -3.60086751
+        outSlope: -3.60086751
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: S_CabinetDrawer_Bottom
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.43832254
+        inSlope: -5.7220459e-06
+        outSlope: -5.7220459e-06
+        tangentMode: 10
+      - time: .75
+        value: -3.43832684
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: -3.43832254
+        inSlope: 5.7220459e-06
+        outSlope: 5.7220459e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: S_CabinetDrawer_Mid
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.27677155
+        inSlope: -3.17891448e-07
+        outSlope: -3.17891448e-07
+        tangentMode: 10
+      - time: .75
+        value: 3.27677131
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: 3.27677155
+        inSlope: 3.17891448e-07
+        outSlope: 3.17891448e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: S_CabinetDrawer_Mid
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.21430969
+        inSlope: 2.22397614
+        outSlope: 2.22397614
+        tangentMode: 10
+      - time: .75
+        value: 4.88229179
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: 3.21430969
+        inSlope: -2.22397614
+        outSlope: -2.22397614
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: S_CabinetDrawer_Mid
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.46307683
+        inSlope: -7.31150294e-06
+        outSlope: -7.31150294e-06
+        tangentMode: 10
+      - time: .75
+        value: -3.46308231
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: -3.46307683
+        inSlope: 7.31150294e-06
+        outSlope: 7.31150294e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: S_CabinetDrawer_Top
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 6.33007193
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .75
+        value: 6.33007193
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: 6.33007193
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: S_CabinetDrawer_Top
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.21431422
+        inSlope: 1.79781687
+        outSlope: 1.79781687
+        tangentMode: 10
+      - time: .75
+        value: 4.56267691
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: 3.21431422
+        inSlope: -1.79781687
+        outSlope: -1.79781687
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: S_CabinetDrawer_Top
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

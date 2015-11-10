@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: AdventureMode_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: aef45f479314b4dc184b6fdbddb8c627, type: 2}
+  sprites:
+  - name: Build Level
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 520
+      width: 270
+      height: 208
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 520
+      width: 270
+      height: 208
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Story Book
+    outer:
+      serializedVersion: 2
+      x: 1760
+      y: 752
+      width: 223
+      height: 272
+    inner:
+      serializedVersion: 2
+      x: 1760
+      y: 752
+      width: 223
+      height: 272
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0036764706
+    paddingBottom: 0
+  - name: White Button
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 729
+      width: 801
+      height: 295
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 729
+      width: 801
+      height: 295
+    rotated: 0
+    paddingLeft: .00249687885
+    paddingRight: .00249687885
+    paddingTop: .00677966094
+    paddingBottom: .00677966094
+  - name: Easy
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 421
+      width: 267
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 421
+      width: 267
+      height: 98
+    rotated: 0
+    paddingLeft: .00374531839
+    paddingRight: .00374531839
+    paddingTop: .0102040814
+    paddingBottom: .10204082
+  - name: Hard
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 223
+      width: 266
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 223
+      width: 266
+      height: 98
+    rotated: 0
+    paddingLeft: .00375939859
+    paddingRight: .00375939859
+    paddingTop: .0102040814
+    paddingBottom: .10204082
+  - name: Medium
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 322
+      width: 267
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 322
+      width: 267
+      height: 98
+    rotated: 0
+    paddingLeft: .00374531839
+    paddingRight: .00374531839
+    paddingTop: .0102040814
+    paddingBottom: .10204082
+  - name: DifficultyGreyBox
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 35
+      width: 957
+      height: 494
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 35
+      width: 957
+      height: 494
+    rotated: 0
+    paddingLeft: .00208986411
+    paddingRight: .00208986411
+    paddingTop: .0040485831
+    paddingBottom: .00202429155
+  - name: DifficultySelect
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 530
+      width: 957
+      height: 494
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 530
+      width: 957
+      height: 494
+    rotated: 0
+    paddingLeft: .00208986411
+    paddingRight: .00208986411
+    paddingTop: .0040485831
+    paddingBottom: .00202429155
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

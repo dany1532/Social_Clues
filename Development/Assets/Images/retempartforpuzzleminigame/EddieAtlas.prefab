@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: EddieAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 992fdb119467d4f4dbe466f59bd8be4b, type: 2}
+  sprites:
+  - name: puzzle 2_6
+    outer:
+      serializedVersion: 2
+      x: 2494
+      y: 1157
+      width: 682
+      height: 600
+    inner:
+      serializedVersion: 2
+      x: 2494
+      y: 1157
+      width: 682
+      height: 600
+    rotated: 0
+    paddingLeft: .0454545468
+    paddingRight: .115835778
+    paddingTop: .0483333319
+    paddingBottom: .0700000003
+  - name: puzzle 2_4
+    outer:
+      serializedVersion: 2
+      x: 3177
+      y: 1159
+      width: 616
+      height: 598
+    inner:
+      serializedVersion: 2
+      x: 3177
+      y: 1159
+      width: 616
+      height: 598
+    rotated: 0
+    paddingLeft: .0714285746
+    paddingRight: .0519480519
+    paddingTop: .0384615399
+    paddingBottom: .0351170562
+  - name: puzzle 2_1
+    outer:
+      serializedVersion: 2
+      x: 2495
+      y: 2533
+      width: 798
+      height: 764
+    inner:
+      serializedVersion: 2
+      x: 2495
+      y: 2533
+      width: 798
+      height: 764
+    rotated: 0
+    paddingLeft: .025062656
+    paddingRight: .0451127812
+    paddingTop: .0222513098
+    paddingBottom: .0209424086
+  - name: puzzle 1_4
+    outer:
+      serializedVersion: 2
+      x: 2494
+      y: 1758
+      width: 654
+      height: 712
+    inner:
+      serializedVersion: 2
+      x: 2494
+      y: 1758
+      width: 654
+      height: 712
+    rotated: 0
+    paddingLeft: .0565749221
+    paddingRight: .0443425067
+    paddingTop: .0224719103
+    paddingBottom: .0210674163
+  - name: puzzle 1_5
+    outer:
+      serializedVersion: 2
+      x: 3149
+      y: 1872
+      width: 770
+      height: 598
+    inner:
+      serializedVersion: 2
+      x: 3149
+      y: 1872
+      width: 770
+      height: 598
+    rotated: 0
+    paddingLeft: .0220779218
+    paddingRight: .0597402602
+    paddingTop: .0501672253
+    paddingBottom: .0735785961
+  - name: IMG_2832
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2471
+      width: 2494
+      height: 1625
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2471
+      width: 2494
+      height: 1625
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: puzzle 2_3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 129
+      width: 759
+      height: 746
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 129
+      width: 759
+      height: 746
+    rotated: 0
+    paddingLeft: .0447957851
+    paddingRight: .0263504609
+    paddingTop: .0321715809
+    paddingBottom: .0174262729
+  - name: IMG_2831
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 876
+      width: 2493
+      height: 1594
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 876
+      width: 2493
+      height: 1594
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: puzzle 1_2
+    outer:
+      serializedVersion: 2
+      x: 3338
+      y: 3322
+      width: 608
+      height: 774
+    inner:
+      serializedVersion: 2
+      x: 3338
+      y: 3322
+      width: 608
+      height: 774
+    rotated: 0
+    paddingLeft: .09375
+    paddingRight: .0345394723
+    paddingTop: .0193798449
+    paddingBottom: .0142118866
+  - name: puzzle 2_2
+    outer:
+      serializedVersion: 2
+      x: 2494
+      y: 558
+      width: 560
+      height: 598
+    inner:
+      serializedVersion: 2
+      x: 2494
+      y: 558
+      width: 560
+      height: 598
+    rotated: 0
+    paddingLeft: .0821428597
+    paddingRight: .0410714298
+    paddingTop: .0301003344
+    paddingBottom: .0234113708
+  - name: puzzle 1_6
+    outer:
+      serializedVersion: 2
+      x: 1541
+      y: 253
+      width: 776
+      height: 622
+    inner:
+      serializedVersion: 2
+      x: 1541
+      y: 253
+      width: 776
+      height: 622
+    rotated: 0
+    paddingLeft: .0360824727
+    paddingRight: .0335051529
+    paddingTop: .0241157562
+    paddingBottom: .0209003221
+  - name: puzzle 2_5
+    outer:
+      serializedVersion: 2
+      x: 3294
+      y: 2557
+      width: 766
+      height: 740
+    inner:
+      serializedVersion: 2
+      x: 3294
+      y: 2557
+      width: 766
+      height: 740
+    rotated: 0
+    paddingLeft: .0613577031
+    paddingRight: .02610966
+    paddingTop: .0337837823
+    paddingBottom: .0364864878
+  - name: puzzle 1_3
+    outer:
+      serializedVersion: 2
+      x: 760
+      y: 241
+      width: 780
+      height: 634
+    inner:
+      serializedVersion: 2
+      x: 760
+      y: 241
+      width: 780
+      height: 634
+    rotated: 0
+    paddingLeft: .012820513
+    paddingRight: .0294871796
+    paddingTop: .0394321755
+    paddingBottom: .0425867513
+  - name: puzzle 1_1
+    outer:
+      serializedVersion: 2
+      x: 2495
+      y: 3298
+      width: 842
+      height: 798
+    inner:
+      serializedVersion: 2
+      x: 2495
+      y: 3298
+      width: 842
+      height: 798
+    rotated: 0
+    paddingLeft: .0534441806
+    paddingRight: .0320665091
+    paddingTop: .0313283205
+    paddingBottom: .0213032588
+  - name: GlassFull
+    outer:
+      serializedVersion: 2
+      x: 3947
+      y: 4036
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 3947
+      y: 4036
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlueRedStripe
+    outer:
+      serializedVersion: 2
+      x: 4008
+      y: 4068
+      width: 28
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 4008
+      y: 4068
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

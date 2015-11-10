@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GeneralOptions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 537020ba904eae0479103cb8a6d555fd, type: 2}
+  sprites:
+  - name: close
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 120
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 120
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: .0178571437
+    paddingRight: .0178571437
+    paddingTop: .0178571437
+    paddingBottom: .0178571437
+  - name: SmallBox
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 439
+      width: 15
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 313
+      y: 439
+      width: 15
+      height: 12
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: 15.0666666
+    paddingTop: .0833333358
+    paddingBottom: .0833333358
+  - name: MusicalNote
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 243
+      width: 65
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 243
+      width: 65
+      height: 65
+    rotated: 0
+    paddingLeft: .0153846154
+    paddingRight: 2.87692308
+    paddingTop: .0153846154
+    paddingBottom: .123076923
+  - name: MusicalNoteColored
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 177
+      width: 65
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 177
+      width: 65
+      height: 65
+    rotated: 0
+    paddingLeft: .0153846154
+    paddingRight: 2.86153841
+    paddingTop: .0153846154
+    paddingBottom: .123076923
+  - name: Slider
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 428
+      width: 312
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 428
+      width: 312
+      height: 23
+    rotated: 0
+    paddingLeft: .00320512825
+    paddingRight: .00320512825
+    paddingTop: .0434782617
+    paddingBottom: .0434782617
+  - name: SliderThumb
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 309
+      width: 68
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 309
+      width: 68
+      height: 69
+    rotated: 0
+    paddingLeft: .0588235296
+    paddingRight: .0441176482
+    paddingTop: .0579710156
+    paddingBottom: .0434782617
+  - name: Capsule
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 379
+      width: 120
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 379
+      width: 120
+      height: 48
+    rotated: 0
+    paddingLeft: .00833333377
+    paddingRight: .00833333377
+    paddingTop: .020833334
+    paddingBottom: .020833334
+  - name: Sherlock Bars HUD
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 452
+      width: 551
+      height: 572
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 452
+      width: 551
+      height: 572
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

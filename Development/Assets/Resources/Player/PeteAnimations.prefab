@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PeteAnimations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21e4822893439a4ebb7e3090775242e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations:
+  - animationIndex: 1024
+    textures:
+    - {fileID: 2800000, guid: 1b70c2c39d5ea491b87bcd291cb83564, type: 3}
+    - {fileID: 2800000, guid: 1b70c2c39d5ea491b87bcd291cb83564, type: 3}
+    - {fileID: 2800000, guid: 1b70c2c39d5ea491b87bcd291cb83564, type: 3}
+    - {fileID: 2800000, guid: 91aacd33225554ec0bda4bc71c1b7072, type: 3}
+    - {fileID: 2800000, guid: 1b70c2c39d5ea491b87bcd291cb83564, type: 3}
+    - {fileID: 2800000, guid: 1b70c2c39d5ea491b87bcd291cb83564, type: 3}
+    - {fileID: 2800000, guid: 1b70c2c39d5ea491b87bcd291cb83564, type: 3}
+    speed: .300000012
+  - animationIndex: 1025
+    textures:
+    - {fileID: 2800000, guid: 2a5ae15b644694e3e881d61b2da9c0fd, type: 3}
+    - {fileID: 2800000, guid: 2a5ae15b644694e3e881d61b2da9c0fd, type: 3}
+    - {fileID: 2800000, guid: 2a5ae15b644694e3e881d61b2da9c0fd, type: 3}
+    - {fileID: 2800000, guid: 1c373ccd160c34823a0ac26f297c5e20, type: 3}
+    - {fileID: 2800000, guid: 2a5ae15b644694e3e881d61b2da9c0fd, type: 3}
+    - {fileID: 2800000, guid: 2a5ae15b644694e3e881d61b2da9c0fd, type: 3}
+    - {fileID: 2800000, guid: 2a5ae15b644694e3e881d61b2da9c0fd, type: 3}
+    speed: .300000012
+  - animationIndex: 1032
+    textures:
+    - {fileID: 2800000, guid: d9ba37406c32d49aba82e71dfd898fb8, type: 3}
+    - {fileID: 2800000, guid: cc3996c7e8b374ef3ad7fd26a109145e, type: 3}
+    speed: 2
+  - animationIndex: 1033
+    textures:
+    - {fileID: 2800000, guid: 3b164d0651e5e43ba94a09258897e57b, type: 3}
+    - {fileID: 2800000, guid: 3b164d0651e5e43ba94a09258897e57b, type: 3}
+    - {fileID: 2800000, guid: 3b164d0651e5e43ba94a09258897e57b, type: 3}
+    - {fileID: 2800000, guid: 1482707792bfc47b7a600a17b6e110cc, type: 3}
+    - {fileID: 2800000, guid: 3b164d0651e5e43ba94a09258897e57b, type: 3}
+    - {fileID: 2800000, guid: 3b164d0651e5e43ba94a09258897e57b, type: 3}
+    - {fileID: 2800000, guid: 3b164d0651e5e43ba94a09258897e57b, type: 3}
+    speed: .300000012
+  - animationIndex: 1034
+    textures:
+    - {fileID: 2800000, guid: 688500c916f144fbcbc3efab30e4db23, type: 3}
+    - {fileID: 2800000, guid: 38843bbc287eb40c6aededea59d305be, type: 3}
+    - {fileID: 2800000, guid: 688500c916f144fbcbc3efab30e4db23, type: 3}
+    speed: .5
+  - animationIndex: 1035
+    textures:
+    - {fileID: 2800000, guid: 054e03b76b9f24ac2ad6a6e042041a12, type: 3}
+    - {fileID: 2800000, guid: 054e03b76b9f24ac2ad6a6e042041a12, type: 3}
+    - {fileID: 2800000, guid: 054e03b76b9f24ac2ad6a6e042041a12, type: 3}
+    - {fileID: 2800000, guid: 054e03b76b9f24ac2ad6a6e042041a12, type: 3}
+    - {fileID: 2800000, guid: 5ff5ba79a72b347a49d711ed658352c0, type: 3}
+    - {fileID: 2800000, guid: 054e03b76b9f24ac2ad6a6e042041a12, type: 3}
+    - {fileID: 2800000, guid: 054e03b76b9f24ac2ad6a6e042041a12, type: 3}
+    speed: .5
+  - animationIndex: 1064
+    textures:
+    - {fileID: 2800000, guid: 3d65a88be571049f79905ac4de01245f, type: 3}
+    - {fileID: 2800000, guid: 3d65a88be571049f79905ac4de01245f, type: 3}
+    - {fileID: 2800000, guid: 3d65a88be571049f79905ac4de01245f, type: 3}
+    - {fileID: 2800000, guid: f350ed6d9de2f494290509788516294d, type: 3}
+    - {fileID: 2800000, guid: 3d65a88be571049f79905ac4de01245f, type: 3}
+    - {fileID: 2800000, guid: 3d65a88be571049f79905ac4de01245f, type: 3}
+    - {fileID: 2800000, guid: 3d65a88be571049f79905ac4de01245f, type: 3}
+    speed: .5
+  - animationIndex: 1065
+    textures:
+    - {fileID: 2800000, guid: f5bc81686945d465d8638878185018e6, type: 3}
+    - {fileID: 2800000, guid: f5bc81686945d465d8638878185018e6, type: 3}
+    - {fileID: 2800000, guid: f5bc81686945d465d8638878185018e6, type: 3}
+    - {fileID: 2800000, guid: 944c20ae82d0a104882ceff35e093570, type: 3}
+    - {fileID: 2800000, guid: f5bc81686945d465d8638878185018e6, type: 3}
+    - {fileID: 2800000, guid: f5bc81686945d465d8638878185018e6, type: 3}
+    - {fileID: 2800000, guid: f5bc81686945d465d8638878185018e6, type: 3}
+    speed: .5
+  - animationIndex: 1066
+    textures:
+    - {fileID: 2800000, guid: 3d317df03770d4680a4263da48c60d8a, type: 3}
+    - {fileID: 2800000, guid: 3d317df03770d4680a4263da48c60d8a, type: 3}
+    - {fileID: 2800000, guid: 3d317df03770d4680a4263da48c60d8a, type: 3}
+    - {fileID: 2800000, guid: 1218433eaa06a49e8becd50796b2215e, type: 3}
+    - {fileID: 2800000, guid: 3d317df03770d4680a4263da48c60d8a, type: 3}
+    - {fileID: 2800000, guid: 3d317df03770d4680a4263da48c60d8a, type: 3}
+    - {fileID: 2800000, guid: 3d317df03770d4680a4263da48c60d8a, type: 3}
+    speed: .5
+  - animationIndex: 2048
+    textures:
+    - {fileID: 2800000, guid: cf1b3e1f6ece14a0e98b26b6691d4046, type: 3}
+    - {fileID: 2800000, guid: cf1b3e1f6ece14a0e98b26b6691d4046, type: 3}
+    - {fileID: 2800000, guid: cf1b3e1f6ece14a0e98b26b6691d4046, type: 3}
+    - {fileID: 2800000, guid: 67ff8cc91dbe6417989513a1bee634aa, type: 3}
+    - {fileID: 2800000, guid: cf1b3e1f6ece14a0e98b26b6691d4046, type: 3}
+    - {fileID: 2800000, guid: cf1b3e1f6ece14a0e98b26b6691d4046, type: 3}
+    - {fileID: 2800000, guid: cf1b3e1f6ece14a0e98b26b6691d4046, type: 3}
+    speed: .5
+  - animationIndex: 2049
+    textures:
+    - {fileID: 2800000, guid: c6c560e58ec7baf4783abae2b5623b8d, type: 3}
+    speed: .5
+  - animationIndex: 1026
+    textures:
+    - {fileID: 2800000, guid: 20a17250b4795443c98d2bc13b244c5f, type: 3}
+    - {fileID: 2800000, guid: 20a17250b4795443c98d2bc13b244c5f, type: 3}
+    - {fileID: 2800000, guid: d0b1783bbad914de0a8398eaea4cc1d7, type: 3}
+    - {fileID: 2800000, guid: 20a17250b4795443c98d2bc13b244c5f, type: 3}
+    - {fileID: 2800000, guid: 20a17250b4795443c98d2bc13b244c5f, type: 3}
+    speed: .5
+  - animationIndex: 1027
+    textures:
+    - {fileID: 2800000, guid: 7003f6e11dd7d4a4ebcc418b97eb82bf, type: 3}
+    - {fileID: 2800000, guid: 20a17250b4795443c98d2bc13b244c5f, type: 3}
+    speed: 2
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

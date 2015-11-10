@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MadMaxAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: eae7686f78569f746bce8a19b30dbf71, type: 2}
+  sprites:
+  - name: Speech Bubble
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 827
+      width: 486
+      height: 611
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 827
+      width: 486
+      height: 611
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ThoughtBubble
+    outer:
+      serializedVersion: 2
+      x: 1232
+      y: 1572
+      width: 553
+      height: 476
+    inner:
+      serializedVersion: 2
+      x: 1237
+      y: 1577
+      width: 543
+      height: 466
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BlueJacket
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 392
+      width: 159
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 392
+      width: 159
+      height: 156
+    rotated: 0
+    paddingLeft: .0314465426
+    paddingRight: .0440251566
+    paddingTop: .00641025649
+    paddingBottom: 0
+  - name: BlueRedStripe
+    outer:
+      serializedVersion: 2
+      x: 1383
+      y: 1235
+      width: 215
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 1383
+      y: 1235
+      width: 215
+      height: 203
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: .0232558139
+    paddingTop: .0147783253
+    paddingBottom: .0197044332
+  - name: RedSweater
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 247
+      width: 165
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 247
+      width: 165
+      height: 144
+    rotated: 0
+    paddingLeft: .0121212117
+    paddingRight: .0121212117
+    paddingTop: .0486111119
+    paddingBottom: .0763888881
+  - name: videogame
+    outer:
+      serializedVersion: 2
+      x: 1599
+      y: 1230
+      width: 206
+      height: 208
+    inner:
+      serializedVersion: 2
+      x: 1599
+      y: 1230
+      width: 206
+      height: 208
+    rotated: 0
+    paddingLeft: .0339805819
+    paddingRight: .0582524277
+    paddingTop: .00480769249
+    paddingBottom: .00480769249
+  - name: swimming
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 8
+      width: 193
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 8
+      width: 193
+      height: 155
+    rotated: 0
+    paddingLeft: .103626944
+    paddingRight: .0621761642
+    paddingTop: .109677419
+    paddingBottom: .245161295
+  - name: baseball
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 549
+      width: 173
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 549
+      width: 173
+      height: 164
+    rotated: 0
+    paddingLeft: .132947981
+    paddingRight: .167630062
+    paddingTop: .158536583
+    paddingBottom: .121951222
+  - name: bouncyball
+    outer:
+      serializedVersion: 2
+      x: 1806
+      y: 1235
+      width: 201
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 1806
+      y: 1235
+      width: 201
+      height: 203
+    rotated: 0
+    paddingLeft: .0547263697
+    paddingRight: .0646766201
+    paddingTop: .024630541
+    paddingBottom: .00985221658
+  - name: AppleJuice
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 835
+      width: 254
+      height: 353
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 835
+      width: 254
+      height: 353
+    rotated: 0
+    paddingLeft: .00393700786
+    paddingRight: .00393700786
+    paddingTop: .0141643062
+    paddingBottom: 0
+  - name: Basketball 1
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 578
+      width: 247
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 578
+      width: 247
+      height: 256
+    rotated: 0
+    paddingLeft: .0202429146
+    paddingRight: .0161943324
+    paddingTop: 0
+    paddingBottom: 0
+  - name: RedLongShirt
+    outer:
+      serializedVersion: 2
+      x: 1163
+      y: 1235
+      width: 219
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 1163
+      y: 1235
+      width: 219
+      height: 203
+    rotated: 0
+    paddingLeft: .01369863
+    paddingRight: .01369863
+    paddingTop: .0197044332
+    paddingBottom: .0147783253
+  - name: redShirt
+    outer:
+      serializedVersion: 2
+      x: 907
+      y: 1201
+      width: 255
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 907
+      y: 1201
+      width: 255
+      height: 237
+    rotated: 0
+    paddingLeft: .00392156886
+    paddingRight: 0
+    paddingTop: .0590717308
+    paddingBottom: .0210970473
+  - name: Max_6_5_3
+    outer:
+      serializedVersion: 2
+      x: 1786
+      y: 1476
+      width: 257
+      height: 572
+    inner:
+      serializedVersion: 2
+      x: 1786
+      y: 1476
+      width: 257
+      height: 572
+    rotated: 0
+    paddingLeft: .0428015552
+    paddingRight: .0389105044
+    paddingTop: .0279720277
+    paddingBottom: .00349650346
+  - name: Max_6_2_1
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 254
+      width: 94
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 371
+      y: 254
+      width: 94
+      height: 92
+    rotated: 0
+    paddingLeft: .0957446843
+    paddingRight: .0531914905
+    paddingTop: .0434782617
+    paddingBottom: 0
+  - name: Max_6_2_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 442
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 442
+      height: 195
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00904977415
+    paddingTop: .0666666701
+    paddingBottom: .051282052
+  - name: Max_6_2_3
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 921
+      width: 265
+      height: 267
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 921
+      width: 265
+      height: 267
+    rotated: 0
+    paddingLeft: .154716983
+    paddingRight: .0226415098
+    paddingTop: .0636704117
+    paddingBottom: .0486891381
+  - name: Max_6_2_5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 222
+      width: 370
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 222
+      width: 370
+      height: 294
+    rotated: 0
+    paddingLeft: .0378378369
+    paddingRight: .048648648
+    paddingTop: .0476190485
+    paddingBottom: .0510204099
+  - name: Max_6_2_4
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 1189
+      width: 419
+      height: 249
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 1189
+      width: 419
+      height: 249
+    rotated: 0
+    paddingLeft: .00238663494
+    paddingRight: 0
+    paddingTop: .0120481923
+    paddingBottom: .00401606411
+  - name: Max_6_5_4
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 347
+      width: 115
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 371
+      y: 347
+      width: 115
+      height: 169
+    rotated: 0
+    paddingLeft: .130434781
+    paddingRight: .0521739125
+    paddingTop: .0236686394
+    paddingBottom: .00591715984
+  - name: Max_6_5_5
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 371
+      width: 152
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 371
+      width: 152
+      height: 206
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: .0263157897
+    paddingTop: .024271844
+    paddingBottom: .0291262139
+  - name: Max_6_5_2
+    outer:
+      serializedVersion: 2
+      x: 487
+      y: 164
+      width: 152
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 487
+      y: 164
+      width: 152
+      height: 206
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: .0263157897
+    paddingTop: .024271844
+    paddingBottom: .0291262139
+  - name: Max_6_5_1
+    outer:
+      serializedVersion: 2
+      x: 742
+      y: 714
+      width: 152
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 742
+      y: 714
+      width: 152
+      height: 206
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: .0263157897
+    paddingTop: .024271844
+    paddingBottom: .0291262139
+  - name: AnswerEqual
+    outer:
+      serializedVersion: 2
+      x: 640
+      y: 430
+      width: 78
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 640
+      y: 430
+      width: 78
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Replies
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1439
+      width: 737
+      height: 609
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1439
+      width: 737
+      height: 609
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AnswerLabel
+    outer:
+      serializedVersion: 2
+      x: 1232
+      y: 1490
+      width: 475
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 1232
+      y: 1490
+      width: 475
+      height: 81
+    rotated: 0
+    paddingLeft: .00210526306
+    paddingRight: 0
+    paddingTop: .197530866
+    paddingBottom: .283950627
+  - name: SpeechBubble
+    outer:
+      serializedVersion: 2
+      x: 738
+      y: 1481
+      width: 493
+      height: 567
+    inner:
+      serializedVersion: 2
+      x: 738
+      y: 1481
+      width: 493
+      height: 567
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ClueRight
+    outer:
+      serializedVersion: 2
+      x: 1008
+      y: 1062
+      width: 302
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1008
+      y: 1062
+      width: 302
+      height: 126
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .00793650839
+  - name: CluePlus
+    outer:
+      serializedVersion: 2
+      x: 640
+      y: 495
+      width: 87
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 640
+      y: 495
+      width: 87
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ClueLeft
+    outer:
+      serializedVersion: 2
+      x: 1311
+      y: 1074
+      width: 312
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1311
+      y: 1074
+      width: 312
+      height: 114
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Answer
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 517
+      width: 462
+      height: 309
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 517
+      width: 462
+      height: 309
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

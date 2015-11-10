@@ -1,0 +1,140 @@
+{"frames": {
+
+"ConversatonProgress.png":
+{
+	"frame": {"x":2,"y":2,"w":356,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":356,"h":101},
+	"sourceSize": {"w":356,"h":101}
+},
+"Empty.png":
+{
+	"frame": {"x":360,"y":2,"w":141,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":141},
+	"sourceSize": {"w":141,"h":141}
+},
+"GoldStar.png":
+{
+	"frame": {"x":503,"y":2,"w":1047,"h":1042},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1047,"h":1042},
+	"sourceSize": {"w":1047,"h":1042}
+},
+"GreyStar.png":
+{
+	"frame": {"x":1552,"y":2,"w":1047,"h":1042},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1047,"h":1042},
+	"sourceSize": {"w":1047,"h":1042}
+},
+"PlayAudioIcon.png":
+{
+	"frame": {"x":2601,"y":2,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"SFSlapstickComic_0.png":
+{
+	"frame": {"x":2703,"y":2,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"SFSlapstickComic_SC_0.png":
+{
+	"frame": {"x":2961,"y":2,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"SFSlapstickComic_SC_Shaded_0.png":
+{
+	"frame": {"x":3219,"y":2,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"SFSlapstickComic_Shaded_0.png":
+{
+	"frame": {"x":3477,"y":2,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"SF_Cartoonist_Hard_0.png":
+{
+	"frame": {"x":3735,"y":2,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"SF_Cartoonist_Hard_SC_0.png":
+{
+	"frame": {"x":2,"y":1046,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"Scenario 1.png":
+{
+	"frame": {"x":260,"y":1046,"w":276,"h":374},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":374},
+	"sourceSize": {"w":276,"h":374}
+},
+"Scenario 2.png":
+{
+	"frame": {"x":538,"y":1046,"w":276,"h":373},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":373},
+	"sourceSize": {"w":276,"h":373}
+},
+"Scenario 3.png":
+{
+	"frame": {"x":816,"y":1046,"w":276,"h":374},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":374},
+	"sourceSize": {"w":276,"h":374}
+},
+"Scenario 4.png":
+{
+	"frame": {"x":1094,"y":1046,"w":276,"h":373},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":373},
+	"sourceSize": {"w":276,"h":373}
+},
+"Text Option.png":
+{
+	"frame": {"x":1372,"y":1046,"w":531,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":531,"h":164},
+	"sourceSize": {"w":531,"h":164}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "TP_DialogueWindow.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d3a4ff23d96350151fd91fa012d4fe57:1/1$"
+}
+}

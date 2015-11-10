@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 06ff7c7e87475c647aaf201d2c459537
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cart
+    100002: //RootNode
+    100004: Passenger_Cart
+    100006: Passenger_Cart_Roof
+    100008: Passenger_Wheel1
+    100010: Passenger_Wheel2
+    100012: Passenger_Wheel3
+    100014: Passenger_Wheel4
+    100016: Passenger_Windows
+    100018: polySurface1
+    100020: polySurface7
+    100022: Wheels
+    400000: Cart
+    400002: //RootNode
+    400004: Passenger_Cart
+    400006: Passenger_Cart_Roof
+    400008: Passenger_Wheel1
+    400010: Passenger_Wheel2
+    400012: Passenger_Wheel3
+    400014: Passenger_Wheel4
+    400016: Passenger_Windows
+    400018: polySurface1
+    400020: polySurface7
+    400022: Wheels
+    2300000: Passenger_Cart
+    2300002: Passenger_Cart_Roof
+    2300004: Passenger_Wheel1
+    2300006: Passenger_Wheel2
+    2300008: Passenger_Wheel3
+    2300010: Passenger_Wheel4
+    2300012: Passenger_Windows
+    2300014: polySurface7
+    3300000: Passenger_Cart
+    3300002: Passenger_Cart_Roof
+    3300004: Passenger_Wheel1
+    3300006: Passenger_Wheel2
+    3300008: Passenger_Wheel3
+    3300010: Passenger_Wheel4
+    3300012: Passenger_Windows
+    3300014: polySurface7
+    4300000: Passenger_Wheel4
+    4300002: Passenger_Wheel1
+    4300004: Passenger_Wheel2
+    4300006: Passenger_Wheel3
+    4300008: polySurface7
+    4300010: Passenger_Cart
+    4300012: Passenger_Windows
+    4300014: Passenger_Cart_Roof
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

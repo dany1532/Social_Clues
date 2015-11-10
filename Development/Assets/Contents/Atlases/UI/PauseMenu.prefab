@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PauseMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0ab1a2058d1973741ba1326b33280c04, type: 2}
+  sprites:
+  - name: Sound
+    outer:
+      serializedVersion: 2
+      x: 722
+      y: 299
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 722
+      y: 299
+      width: 106
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mute
+    outer:
+      serializedVersion: 2
+      x: 829
+      y: 299
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 829
+      y: 299
+      width: 106
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PlayButton
+    outer:
+      serializedVersion: 2
+      x: 722
+      y: 192
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 722
+      y: 192
+      width: 106
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pause
+    outer:
+      serializedVersion: 2
+      x: 722
+      y: 85
+      width: 106
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 722
+      y: 85
+      width: 106
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SettingsPause
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 406
+      width: 247
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 406
+      width: 247
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DataPause
+    outer:
+      serializedVersion: 2
+      x: 759
+      y: 406
+      width: 212
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 759
+      y: 406
+      width: 212
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HomePause
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 191
+      width: 210
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 191
+      width: 210
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pixel
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 509
+      width: 1
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 509
+      width: 1
+      height: 1
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ExitButton
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 84
+      width: 201
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 84
+      width: 201
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SF_SlapsticComicHD_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 510
+      height: 510
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 510
+      height: 510
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00392156886
+    paddingTop: 0
+    paddingBottom: .00392156886
+  - name: Exit
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 298
+      width: 210
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 298
+      width: 210
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: train
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 3b2475a91c6b87c4d884cdf4c5b4c2ed, type: 2}
+  sprites:
+  - name: car1
+    outer:
+      serializedVersion: 2
+      x: 1866
+      y: 804
+      width: 92
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1866
+      y: 804
+      width: 92
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tracks
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 11
+      width: 1140
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 11
+      width: 1140
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .217391297
+    paddingBottom: .304347813
+  - name: car2
+    outer:
+      serializedVersion: 2
+      x: 1959
+      y: 964
+      width: 88
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1959
+      y: 964
+      width: 88
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: train-engine
+    outer:
+      serializedVersion: 2
+      x: 1565
+      y: 458
+      width: 298
+      height: 264
+    inner:
+      serializedVersion: 2
+      x: 1565
+      y: 458
+      width: 298
+      height: 264
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: carBackground
+    outer:
+      serializedVersion: 2
+      x: 1866
+      y: 951
+      width: 92
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 1866
+      y: 951
+      width: 92
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: engine
+    outer:
+      serializedVersion: 2
+      x: 1565
+      y: 193
+      width: 298
+      height: 264
+    inner:
+      serializedVersion: 2
+      x: 1565
+      y: 193
+      width: 298
+      height: 264
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GoButton
+    outer:
+      serializedVersion: 2
+      x: 1565
+      y: 723
+      width: 300
+      height: 301
+    inner:
+      serializedVersion: 2
+      x: 1565
+      y: 723
+      width: 300
+      height: 301
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: car3
+    outer:
+      serializedVersion: 2
+      x: 1866
+      y: 731
+      width: 90
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 1866
+      y: 731
+      width: 90
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .027777778
+    paddingBottom: .055555556
+  - name: car4
+    outer:
+      serializedVersion: 2
+      x: 1866
+      y: 877
+      width: 92
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 1866
+      y: 877
+      width: 92
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Entree Buffet
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 35
+      width: 1564
+      height: 989
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 35
+      width: 1564
+      height: 989
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

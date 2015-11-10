@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PattyJakeAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5594c3fe931ce4fb8a93abe18f6be6f8, type: 2}
+  sprites:
+  - name: jakeRightHand
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 142
+      width: 574
+      height: 605
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 142
+      width: 574
+      height: 605
+    rotated: 0
+    paddingLeft: .224738672
+    paddingRight: .256097555
+    paddingTop: .166942149
+    paddingBottom: .238016531
+  - name: jakeLeftHand
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 151
+      width: 574
+      height: 605
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 151
+      width: 574
+      height: 605
+    rotated: 0
+    paddingLeft: .256097555
+    paddingRight: .224738672
+    paddingTop: .166942149
+    paddingBottom: .238016531
+  - name: jakeClapHand
+    outer:
+      serializedVersion: 2
+      x: 1411
+      y: 15
+      width: 392
+      height: 424
+    inner:
+      serializedVersion: 2
+      x: 1411
+      y: 15
+      width: 392
+      height: 424
+    rotated: 0
+    paddingLeft: .0153061226
+    paddingRight: .0153061226
+    paddingTop: .0070754718
+    paddingBottom: 0
+  - name: peteClapHandGlow
+    outer:
+      serializedVersion: 2
+      x: 1411
+      y: 440
+      width: 500
+      height: 500
+    inner:
+      serializedVersion: 2
+      x: 1411
+      y: 440
+      width: 500
+      height: 500
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: peteRightHandGlow
+    outer:
+      serializedVersion: 2
+      x: 2202
+      y: 3246
+      width: 834
+      height: 850
+    inner:
+      serializedVersion: 2
+      x: 2202
+      y: 3246
+      width: 834
+      height: 850
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0191846527
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pixel
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 2947
+      width: 2
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 2947
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6_1_1_Jake_Clap Button
+    outer:
+      serializedVersion: 2
+      x: 3037
+      y: 3293
+      width: 881
+      height: 803
+    inner:
+      serializedVersion: 2
+      x: 3037
+      y: 3293
+      width: 881
+      height: 803
+    rotated: 0
+    paddingLeft: .0181611814
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6_1_2_Jake_Clapping Hands
+    outer:
+      serializedVersion: 2
+      x: 3060
+      y: 1746
+      width: 897
+      height: 433
+    inner:
+      serializedVersion: 2
+      x: 3060
+      y: 1746
+      width: 897
+      height: 433
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .496535808
+    paddingBottom: .357967675
+  - name: 6_1_4_Jake_Right Hand
+    outer:
+      serializedVersion: 2
+      x: 2065
+      y: 2180
+      width: 698
+      height: 870
+    inner:
+      serializedVersion: 2
+      x: 2065
+      y: 2180
+      width: 698
+      height: 870
+    rotated: 0
+    paddingLeft: .00859598815
+    paddingRight: 0
+    paddingTop: .0344827585
+    paddingBottom: 0
+  - name: 6_1_3_Jake_Left Hand
+    outer:
+      serializedVersion: 2
+      x: 2764
+      y: 2180
+      width: 698
+      height: 870
+    inner:
+      serializedVersion: 2
+      x: 2764
+      y: 2180
+      width: 698
+      height: 870
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00286532962
+    paddingTop: .0344827585
+    paddingBottom: 0
+  - name: 6_2_3_Jake
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 748
+      width: 731
+      height: 1054
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 748
+      width: 731
+      height: 1054
+    rotated: 0
+    paddingLeft: .268125862
+    paddingRight: .0998632014
+    paddingTop: .111954458
+    paddingBottom: .0265654642
+  - name: 6_2_4_Jake
+    outer:
+      serializedVersion: 2
+      x: 1411
+      y: 941
+      width: 509
+      height: 1054
+    inner:
+      serializedVersion: 2
+      x: 1411
+      y: 941
+      width: 509
+      height: 1054
+    rotated: 0
+    paddingLeft: .385068774
+    paddingRight: .57956779
+    paddingTop: .111954458
+    paddingBottom: .0265654642
+  - name: 6_2_1_Jake
+    outer:
+      serializedVersion: 2
+      x: 2065
+      y: 1125
+      width: 509
+      height: 1054
+    inner:
+      serializedVersion: 2
+      x: 2065
+      y: 1125
+      width: 509
+      height: 1054
+    rotated: 0
+    paddingLeft: .385068774
+    paddingRight: .57956779
+    paddingTop: .111954458
+    paddingBottom: .0265654642
+  - name: 6_2_2_Jake
+    outer:
+      serializedVersion: 2
+      x: 1411
+      y: 1996
+      width: 653
+      height: 1054
+    inner:
+      serializedVersion: 2
+      x: 1411
+      y: 1996
+      width: 653
+      height: 1054
+    rotated: 0
+    paddingLeft: .0796324685
+    paddingRight: .451761097
+    paddingTop: .111954458
+    paddingBottom: .0265654642
+  - name: 6_3_1_Jake
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 1904
+      width: 627
+      height: 1146
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 1904
+      width: 627
+      height: 1146
+    rotated: 0
+    paddingLeft: .266347677
+    paddingRight: .32854864
+    paddingTop: .0279232115
+    paddingBottom: .0191972069
+  - name: 6_3_2_Jake
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1803
+      width: 739
+      height: 1146
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1803
+      width: 739
+      height: 1146
+    rotated: 0
+    paddingLeft: .0744249001
+    paddingRight: .278755069
+    paddingTop: .0279232115
+    paddingBottom: .0191972069
+  - name: 6_3_3_Jake
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2950
+      width: 782
+      height: 1146
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2950
+      width: 782
+      height: 1146
+    rotated: 0
+    paddingLeft: .213554993
+    paddingRight: .0652173907
+    paddingTop: .0279232115
+    paddingBottom: .0191972069
+  - name: 6_3_4_Jake
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 757
+      width: 627
+      height: 1146
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 757
+      width: 627
+      height: 1146
+    rotated: 0
+    paddingLeft: .266347677
+    paddingRight: .32854864
+    paddingTop: .0279232115
+    paddingBottom: .0191972069
+  - name: 6_4_3_Jake
+    outer:
+      serializedVersion: 2
+      x: 1514
+      y: 3051
+      width: 687
+      height: 1045
+    inner:
+      serializedVersion: 2
+      x: 1514
+      y: 3051
+      width: 687
+      height: 1045
+    rotated: 0
+    paddingLeft: .381368279
+    paddingRight: .0742358044
+    paddingTop: .121531099
+    paddingBottom: .0267942585
+  - name: 6_4_1_Jake
+    outer:
+      serializedVersion: 2
+      x: 2065
+      y: 79
+      width: 484
+      height: 1045
+    inner:
+      serializedVersion: 2
+      x: 2065
+      y: 79
+      width: 484
+      height: 1045
+    rotated: 0
+    paddingLeft: .541322291
+    paddingRight: .524793386
+    paddingTop: .121531099
+    paddingBottom: .0267942585
+  - name: 6_4_2_Jake
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 3051
+      width: 730
+      height: 1045
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 3051
+      width: 730
+      height: 1045
+    rotated: 0
+    paddingLeft: .0219178088
+    paddingRight: .347945213
+    paddingTop: .121531099
+    paddingBottom: .0267942585
+  - name: 6_4_4_Jake
+    outer:
+      serializedVersion: 2
+      x: 2575
+      y: 1134
+      width: 484
+      height: 1045
+    inner:
+      serializedVersion: 2
+      x: 2575
+      y: 1134
+      width: 484
+      height: 1045
+    rotated: 0
+    paddingLeft: .541322291
+    paddingRight: .524793386
+    paddingTop: .121531099
+    paddingBottom: .0267942585
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

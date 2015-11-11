@@ -9,8 +9,6 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 	public Texture2D mainPuzzleImage;
 	public Texture2D hintImage;
 	
-	public List<Color> colRows;
-	
 	public int numRows = 0;
 	public int numCol = 0;
 	
@@ -29,6 +27,8 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+
+		//Find and store the default starting puzzle pieces' locations (gameobjects) 
 		locations = new GameObject[20];
 		int i = 0;
 		for (int x = 0; x<5; x++)
@@ -50,20 +50,20 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 	        locations[k] = locations[n];  
 	        locations[n] = value;  
 	    }  
-		
+
+		//Get the game's difficulty
 		diff = GameObject.Find("EddieMinigame").GetComponent<EddiePuzzleManager>().getDifficulty();
-		
-		colRows = new List<Color>();
+
+		// Set up variables to be used to find # of columns and rows
 		int counter = 0;
-		int index = 0;
-		
 		var colors = new Color[puzzleOutline.width * puzzleOutline.height];
 		colors = puzzleOutline.GetPixels(0,0,puzzleOutline.width, puzzleOutline.height);
 		Color prevColor = colors[0];
-		//Color prevColor = puzzleOutline.GetPixel(0,0);
-		
-		for(int x = 1; x < puzzleOutline.width; x++){
-			
+
+		//Find # of column pieces from the jigsaw puzzle outline
+			//if the previous 30 pixels(color threshold) are from the same color then increment column pieces
+		for(int x = 1; x < puzzleOutline.width; x++)
+		{
 			if(prevColor == colors[x])
 				counter++;
 			
@@ -76,29 +76,17 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 				numCol++;	
 		}
 		
-		//Get number of column pieces
-//		for(int x = 1; x < puzzleOutline.width; x++){
-//			
-//			if(prevColor == puzzleOutline.GetPixel(x,0))
-//				counter++;
-//			
-//			else{
-//				counter = 0;
-//				prevColor = puzzleOutline.GetPixel(x,0);
-//			}
-//			
-//			if(counter == COLORTHRESHOLD)
-//				numCol++;	
-//		}
-		
-		//reset variables
+		//reset variables for the # of row pieces
+		int index = 0;
 		counter = 0;
 		prevColor = colors[0];
-		//prevColor = puzzleOutline.GetPixel(0,0);
 		
 		//Get number of row pieces
+			//if the previous 30 pixels(colorthreshold) are from the same color then increment row pieces
 		for(int y = 1; y < puzzleOutline.height; y++){
+			//go up one row
 			index = y * puzzleOutline.width;
+
 			if(prevColor == colors[index])
 				counter++;
 			
@@ -113,42 +101,27 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 			}
 		}
 		
-		//Get number of row pieces
-//		for(int y = 1; y < puzzleOutline.height; y++){
-//			
-//			if(prevColor == puzzleOutline.GetPixel(0,y))
-//				counter++;
-//			
-//			else{
-//				counter = 0;
-//				prevColor = puzzleOutline.GetPixel(0,y);
-//			}
-//			
-//			if(counter == COLORTHRESHOLD){
-//				numRows++;	
-//			
-//			}
-		//}
-		
 		//Depending on number of rows/columns, how far are from each other
 		    //Used to get the average middle point of each piece
 		int rowOffset = puzzleOutline.height/numRows;
 		int columnOffset = puzzleOutline.width/numCol;
 		
-		//For Storing the puzzle piece's info (color, location)
+		//For Storing the puzzle piece's info (color, location, UVs)
+			//Create jigsaw pieces depending on now of rows and columns
 		int indexX = 0;
 		int indexY = 0;
 		indivPiecesArray = new PuzzlePieceInfo[numRows,numCol];
-		
-		for(int y = rowOffset/2; y < puzzleOutline.height-10; y += rowOffset){
-			
+
+		//Using the calculated average row distance from each jigsaw puzzle,
+		 //Go over the columns and create/set jigsaw piece info (color, location)
+		for(int y = rowOffset/2; y < puzzleOutline.height-10; y += rowOffset)
+		{
 			index = y * puzzleOutline.width;
 			counter = 0;
 			prevColor = colors[index];
-			//prevColor = puzzleOutline.GetPixel(0,y);
 			
 			for(int x = 1; x < puzzleOutline.width; x++){
-				
+				//Go up one jigsaw piece
 				index = y * puzzleOutline.width + x;
 				
 				if(prevColor == colors[index])
@@ -158,7 +131,8 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 					counter = 0;
 					prevColor = colors[index];
 				}
-				
+
+				//Create jigsaw piece with location in relation to the jigsaw puzzle and color)
 				if(counter == COLORTHRESHOLD){
 					CreateIndividualPiece(indexY, indexX, prevColor);
 					indexX++;
@@ -168,36 +142,12 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 			indexX = 0;
 			indexY++;
 		}
-		
-		//Get the Color and location of each piece
-//		for(int y = rowOffset/2; y < puzzleOutline.height-10; y += rowOffset){
-//			
-//			counter = 0;
-//			prevColor = puzzleOutline.GetPixel(0,y);
-//			
-//			for(int x = 1; x < puzzleOutline.width; x++){
-//				
-//				if(prevColor == puzzleOutline.GetPixel(x,y))
-//					counter++;
-//				
-//				else{
-//					counter = 0;
-//					prevColor = puzzleOutline.GetPixel(x,y);
-//				}
-//				
-//				if(counter == COLORTHRESHOLD){
-//					CreateIndividualPiece(indexY, indexX, prevColor);
-//					indexX++;
-//				}
-//			}
-//			
-//			indexX = 0;
-//			indexY++;
-//		}
-		
+			
 		//Calculate each piece's UV's and create prefab	
-		for(int row = 0; row < numRows; row++){
-			for(int col = 0; col < numCol; col++){
+		for(int row = 0; row < numRows; row++)
+		{
+			for(int col = 0; col < numCol; col++)
+			{
 				CalculateUVRect(indivPiecesArray[row, col], colors);
 				InstantiatePrefab(indivPiecesArray[row,col]);
 			}
@@ -276,13 +226,10 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 	
 	//Calculate the UV's depending on piece's grid location
 	void CalculateUVRect(PuzzlePieceInfo piece, Color[] colors){
-		//Color prevColorX;
-		//Color prevColorY;
-		
 		int prevUVX;
 		int prevUVY;
 		
-	//if it is the very first piece
+	//if it is the very first piece, set UV's location to (0,0)
 		if(piece.myRow == 0 && piece.myColumn == 0){
 			piece.uvX = 0;
 			piece.uvY = 0;
@@ -290,7 +237,7 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 			CalculateMinMax(piece, 0, 0, false, colors);
 		}
 		
-		//if it is a piece on the first row
+		//if it is a piece on the first row, set UV's location to (UVX,0)
 		else if(piece.myRow == 0){
 			piece.uvY = 0;
 			
@@ -300,7 +247,7 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 			CalculateMinMax(piece, prevUVX, prevUVY, true, colors);
 		}
 		
-	//if it is a piece on the first column
+	//if it is a piece on the first column, set UV's location to (0, UVY)
 		else if(piece.myColumn == 0){
 			piece.uvX = 0;
 			
@@ -336,11 +283,11 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 		bool notFound = false;
 		bool findMinY = true;
 		
-		//if the piece is the last on row, then maxX will be texture's width
+		//if the piece is the last on column, then maxX will be texture's width
 		if(piece.myColumn == numCol-1)
 			maxX = puzzleOutline.width;
 		
-		//if the piece is the last on column, then maxY will be texture's height
+		//if the piece is the last on row, then maxY will be texture's height
 		if(piece.myRow == numRows-1)
 			maxY = puzzleOutline.height;
 		
@@ -355,17 +302,20 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 			findMinX = true;
 			
 			//if it didn't find the piece's color after one traversal, assume end of piece
-			if(notFound){
-				if(piece.myRow != numRows - 1)
+			if(notFound)
+			{
+				if(piece.myRow != numRows - 1){
 					maxY = y+2; //Just some padding
-
+				}
 				break;			
 			}
 			
-			for(int x = startX; x < puzzleOutline.width; x++){
+			for(int x = startX; x < puzzleOutline.width; x++)
+			{
 				index = y * puzzleOutline.width + x;
 				//Find the uvX of currentPiece using the piece on the left as reference
-				if(findMinX){
+				if(findMinX)
+				{
 					
 				   //if the pixel has the same color as the piece...
 					if( piece.myColor ==  colors[index]){
@@ -389,93 +339,31 @@ public class PuzzlePieceTextureMod : MonoBehaviour {
 							break;
 					}
 					
-					 //if the current pixel is not the piece's color and is greater than current max
-					  // add to the counter for later checking
+					 //if the current pixel is not the piece's color, is greater than current max
+					 //Or reached end of texture assume end of piece
 					else if((maxX != int.MinValue && x > maxX)  ||
-						(maxX != int.MinValue && !findMinY && x == puzzleOutline.width -1)){
-						
+						   (maxX != int.MinValue && !findMinY && x == puzzleOutline.width -1))
+					{
 						notFound = true;
 						break;
 					}
 				}
 				//find the MaxX that the piece covers
-				if(!findMinX){
+				if(!findMinX)
+				{
 					
 					//at the first occurrence that the color is no longer the same as the piece's
 					if(piece.myColor != colors[index]){
 						
 						//Check if currentX is greater than current Max and break regardless
-						if(x > maxX) {maxX = x;}
+						if(x > maxX) {
+							maxX = x;
+						}
 						break;
 					}
 				}
 			}//end X for loop
 		}//end y for loop
-				
-		
-//		//Main For loop
-//		for(int y = startY; y < puzzleOutline.height; y++){
-//			
-//			//New row, then try to find a new MinX
-//			findMinX = true;
-//			
-//			//if it didn't find the piece's color after one traversal, assume end of piece
-//			if(notFound){
-//				if(piece.myRow != numRows - 1)
-//					maxY = y+2; //Just some padding
-//
-//				break;			
-//			}
-//			
-//			for(int x = startX; x < puzzleOutline.width; x++){
-//				
-//				//Find the uvX of currentPiece using the piece on the left as reference
-//				if(findMinX){
-//						
-//				   //if the pixel has the same color as the piece...
-//					if( piece.myColor == puzzleOutline.GetPixel(x,y)){
-//					
-//						//check if pixel positiion is lower than the current min and swap accordingly
-//						if(x < minX) 
-//							minX = x;
-//						
-//						//find the very first occurence of the piece's color to find minY
-//						if(findMinY){
-//							minY = y;
-//							findMinY = false;
-//						}
-//						
-//						//found first piece's color occurrence find the row's maxX (if not the last column piece)
-//						if(piece.myColumn != numCol - 1){
-//							findMinX = false;	
-//						}
-//						
-//						else
-//							break;
-//					}
-//					
-//					 //if the current pixel is not the piece's color and is greater than current max
-//					  // add to the counter for later checking
-//					else if((maxX != int.MinValue && x > maxX)  ||
-//						(maxX != int.MinValue && !findMinY && x == puzzleOutline.width -1)){
-//						
-//						notFound = true;
-//						break;
-//					}
-//				}
-//				//find the MaxX that the piece covers
-//				if(!findMinX){
-//					
-//					//at the first occurrence that the color is no longer the same as the piece's
-//					if(piece.myColor != puzzleOutline.GetPixel(x,y)){
-//						
-//						//Check if currentX is greater than current Max and break regardless
-//						if(x > maxX) {maxX = x;}
-//						break;
-//					}
-//				}
-//			}//end X for loop
-//		}//end y for loop
 		
 		piece.uvX = minX;
 		piece.uvY = minY;

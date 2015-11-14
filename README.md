@@ -8,4 +8,5 @@ Some of the scripts I worked on are:
 https://github.com/dany1532/Social_Clues/blob/master/Development/Assets/Scripts/Minigames/Insensitive%20Eddie/PuzzlePieceTextureMod.cs
 https://github.com/dany1532/Social_Clues/tree/master/Development/Assets/Scripts/Minigames/Gabby%20Gaby
 https://github.com/dany1532/Social_Clues/tree/master/Development/Assets/Scripts/Minigames/Selfish_Sam
-
+https://github.com/dany1532/Social_Clues/tree/master/Development/Assets/Scripts/Custom_Level
+https://github.com/dany1532/Social_Clues/tree/master/Development/Assets/Scripts/_WorldMap
